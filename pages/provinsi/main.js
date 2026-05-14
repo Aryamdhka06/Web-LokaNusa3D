@@ -28,7 +28,7 @@ const provinceDatabase = {
       desc:      "Rumoh Aceh adalah rumah tradisional masyarakat Aceh yang dibangun di atas tiang-tiang kayu tinggi sebagai perlindungan dari banjir dan binatang liar. Arsitekturnya memadukan unsur Islam, alam, dan filosofi kehidupan masyarakat Aceh. Setiap ukiran, arah bangunan, dan jumlah anak tangga memiliki makna spiritual yang mendalam.",
       metaLoc:   "Provinsi Aceh",
       metaStyle: "Arsitektur Islami",
-      img:       "/assets/provinsi/aceh/rumohAceh.jpg",
+      img:       "../../assets/provinsi/aceh/rumohAceh.jpg",
     },
     weapon: {
       name:      "Rencong",
@@ -36,7 +36,7 @@ const provinceDatabase = {
       desc:      "Rencong adalah senjata tradisional khas Aceh yang menjadi simbol keberanian, kehormatan, dan semangat perjuangan rakyat Aceh. Bentuknya yang melengkung menyerupai huruf Arab dipercaya mencerminkan nilai-nilai Islam yang kuat dalam kehidupan masyarakat Aceh.",
       metaLoc:   "Identitas Budaya Aceh",
       metaStyle: "Pusaka Kehormatan",
-      img:       "/assets/provinsi/aceh/rencong.webp",
+      img:       "../../assets/provinsi/aceh/rencong.webp",
     },
     food: {
       name:      "Mie Aceh",
@@ -44,7 +44,7 @@ const provinceDatabase = {
       desc:      "Mie Aceh adalah kuliner legendaris bercita rasa rempah kuat dengan perpaduan mie tebal, kari khas, dan berbagai pilihan lauk seperti daging, seafood, atau kepiting. Aroma rempah Timur Tengah, India, dan Nusantara berpadu menjadi identitas kuliner Aceh yang mendunia.",
       metaLoc:   "Rempah Pilihan",
       metaStyle: "Cita Rasa Khas",
-      img:       "/assets/provinsi/aceh/mieaceh.jpg",
+      img:       "../../assets/provinsi/aceh/mieaceh.jpg",
     },
     cloth: {
       name:      "Ulee Balang",
@@ -52,7 +52,7 @@ const provinceDatabase = {
       desc:      "Ulee Balang adalah pakaian adat kebesaran masyarakat Aceh yang dahulu dikenakan oleh keluarga kerajaan dan bangsawan. Dominasi warna hitam dipadukan sulaman benang emas melambangkan kewibawaan, kehormatan, dan kejayaan Kesultanan Aceh.",
       metaLoc:   "Sulaman Emas",
       metaStyle: "Warisan Kesultanan",
-      img:       "/assets/provinsi/aceh/ulee.jpg",
+      img:       "../../assets/provinsi/aceh/ulee.jpg",
     },
   },
 
@@ -70,7 +70,7 @@ const provinceDatabase = {
       desc:      "Rumah Joglo adalah arsitektur rumah adat Jawa Tengah yang paling ikonik, ditandai oleh atap bertumpuk yang menjulang tinggi disebut tajug. Soko guru — empat pilar utama penopang atap — menjadi pusat filosofi kosmologi Jawa yang mencerminkan keseimbangan antara manusia, alam, dan Tuhan.",
       metaLoc:   "Provinsi Jawa Tengah",
       metaStyle: "Arsitektur Jawa Klasik",
-      img:       "assets/provinsi/jawatengah/joglo.jpg",
+      img:       "../../assets/provinsi/jawatengah/joglo.jpg",
     },
     weapon: {
       name:      "Keris Jawa",
@@ -78,7 +78,7 @@ const provinceDatabase = {
       desc:      "Keris Jawa adalah senjata pusaka bertuah yang telah diakui UNESCO sebagai Warisan Budaya Tak Benda Dunia sejak 2005. Bilahnya yang berlekuk-lekuk (luk) mengandung filosofi spiritual mendalam, dan setiap keris dipercaya memiliki kekuatan gaib sesuai pamor dan dapur tempaannya.",
       metaLoc:   "Warisan UNESCO",
       metaStyle: "Pusaka Spiritual Jawa",
-      img:       "assets/provinsi/jawatengah/keris.jpg",
+      img:       "../../assets/provinsi/jawatengah/keris.jpg",
     },
     food: {
       name:      "Gudeg",
@@ -86,7 +86,7 @@ const provinceDatabase = {
       desc:      "Gudeg adalah masakan khas Jawa Tengah berbahan dasar nangka muda yang dimasak berjam-jam dengan santan, gula jawa, dan rempah pilihan hingga berwarna cokelat kemerahan dan bercita rasa manis gurih. Sajian ini menjadi ikon kuliner Yogyakarta dan Solo yang mendunia.",
       metaLoc:   "Cita Rasa Manis Gurih",
       metaStyle: "Kuliner Keraton",
-      img:       "assets/provinsi/jawatengah/gudeg.jpg",
+      img:       "../../assets/provinsi/jawatengah/gudeg.jpg",
     },
     cloth: {
       name:      "Kebaya Jawa",
@@ -94,7 +94,7 @@ const provinceDatabase = {
       desc:      "Kebaya Jawa adalah pakaian tradisional perempuan Jawa yang anggun dan penuh filosofi, dipadukan dengan kain batik bermotif parang atau truntum. Busana ini dikenakan pada upacara adat, pernikahan, dan acara kebesaran sebagai lambang kehalusan budi dan keanggunan wanita Jawa.",
       metaLoc:   "Motif Batik Klasik",
       metaStyle: "Simbol Keanggunan Jawa",
-      img:       "assets/provinsi/jawatengah/kebaya.jpg",
+      img:       "../../assets/provinsi/jawatengah/kebaya.jpg",
     },
   },
 
