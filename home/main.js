@@ -7,10 +7,10 @@
 // ═══════════════════════════════
 
 const provinces = [
-  { name: "Aceh",                   icon: "assets/provinsi/aceh.svg" },
-  { name: "Sumatera Utara",         icon: "/assets/provinsi/sumut.svg" },
-  { name: "Sumatera Barat",         icon: "/assets/provinsi/sumbar.svg" },
-  { name: "Riau",                   icon: "/assets/provinsi/riau.svg" },
+  { name: "Aceh",                   icon: "./assets/provinsi/aceh.svg" },
+  { name: "Sumatera Utara",         icon: "../assets/provinsi/sumut.svg" },
+  { name: "Sumatera Barat",         icon: "../../assets/provinsi/sumbar.svg" },
+  { name: "Riau",                   icon: "../../../assets/provinsi/riau.svg" },
   { name: "Kepulauan Riau",         icon: "/assets/provinsi/kepri.svg" },
   { name: "Jambi",                  icon: "/assets/provinsi/jambi.svg" },
   { name: "Sumatera Selatan",       icon: "/assets/provinsi/sumsel.svg" },
