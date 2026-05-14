@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LokaNusa 3D — Explore Indonesia in 3D</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/home/style.css" />
+</head>
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+<nav class="ln-nav" id="navbar">
+  <div class="nav-logo">
+    <div class="nav-logo-glyph">🗺️</div>
+    <span class="nav-logo-text">LokaNusa<span class="logo-3d">3D</span></span>
+  </div>
+  <ul class="nav-links" id="navMenu">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#provinces">PROVINSI</a></li>
+    <li><a href="#how-it-works">Explore AR</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact" class="nav-cta">Launch AR</a></li>
+  </ul>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="nv-hero" id="home">
+    <div class="hero-glow-orb orb1"></div>
+    <div class="hero-glow-orb orb2"></div>
+    <div class="hero-glow-orb orb3"></div>
+
+    <div class="hero-content reveal">
+      <div class="hero-badge">
+        <div class="hero-badge-dot"></div>
+        WebAR Educational Platform
+      </div>
+      <h1 class="hero-title">Explore<br>Indonesia<br><span class="gold">in 3D</span></h1>
+      <p class="hero-sub">Discover traditional houses, clothing, foods, and weapons from all 38 provinces through interactive augmented reality.</p>
+      <div class="hero-btns">
+        <a href="#provinces" class="btn-gold">
+          <i class="fa-solid fa-map"></i> Explore Provinces
+        </a>
+        <a href="#how-it-works" class="btn-outline">
+          <i class="fa-solid fa-camera"></i> Scan AR Experience
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs-stat"><strong>38</strong><span>Provinces</span></div>
+        <div class="hs-stat"><strong>150+</strong><span>Objects</span></div>
+        <div class="hs-stat"><strong>3D</strong><span>Interactive</span></div>
+      </div>
+    </div>
+
+    <div class="hero-map-wrap reveal delay-1">
+      <div class="map-card float-anim">
+        <div class="map-card-title">🌏 Interactive Map — Indonesia</div>
+        <img src="../assets/maps/id.svg" class="indo-map" alt="Indonesia Map">
+        <div class="culture-chips">
+          <div class="chip chip-gold">🏛️ Rumah Adat</div>
+          <div class="chip chip-blue">👘 Pakaian</div>
+          <div class="chip chip-teal">🍜 Kuliner</div>
+          <div class="chip chip-pink">⚔️ Senjata</div>
+        </div>
+      </div>
+
+      <div class="ar-status-chip float-anim-2">
+        <div class="ar-dot"></div>
+        <div>
+          <div class="ar-label">AR Ready</div>
+          <div class="ar-sub">Point &amp; Scan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FEATURES ═══ -->
+  <div class="section-divider"></div>
+  <section class="nv-section" id="features">
+    <div class="section-header">
+      <div class="section-tag">✦ Platform Features</div>
+      <h2 class="section-title">Everything You Need to<br>Explore Nusantara</h2>
+      <p class="section-sub">One platform bringing all 38 provinces' cultural heritage to life in augmented reality.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feat-card reveal">
+        <div class="feat-icon icon-gold">🗺️</div>
+        <div class="feat-num">38</div>
+        <div class="feat-label">Provinces</div>
+        <div class="feat-desc">Full coverage of all Indonesian provinces with dedicated cultural data.</div>
+      </div>
+      <div class="feat-card reveal delay-1">
+        <div class="feat-icon icon-blue">🔮</div>
+        <div class="feat-num">3D</div>
+        <div class="feat-label">Interactive Models</div>
+        <div class="feat-desc">Rotate, zoom, and interact with photorealistic 3D cultural artifacts.</div>
+      </div>
+      <div class="feat-card reveal delay-2">
+        <div class="feat-icon icon-teal">📷</div>
+        <div class="feat-num">AR</div>
+        <div class="feat-label">Camera Experience</div>
+        <div class="feat-desc">Place cultural objects in your real environment using your phone camera.</div>
+      </div>
+      <div class="feat-card reveal delay-3">
+        <div class="feat-icon icon-pink">📚</div>
+        <div class="feat-num">∞</div>
+        <div class="feat-label">Cultural Encyclopedia</div>
+        <div class="feat-desc">Deep-dive into history, stories, and significance of every artifact.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ HOW IT WORKS ═══ -->
+  <div class="section-divider"></div>
+  <section class="nv-section" id="how-it-works">
+    <div class="section-header">
+      <div class="section-tag">⚡ How It Works</div>
+      <h2 class="section-title">Three Steps to<br>Cultural Discovery</h2>
+      <p class="section-sub">Start your augmented reality journey in under a minute.</p>
+    </div>
+    <div class="hiw-grid">
+      <div class="hiw-step reveal">
+        <div class="hiw-num">1</div>
+        <div class="hiw-icon">📱</div>
+        <h3 class="hiw-title">Scan QR Code</h3>
+        <p class="hiw-desc">Open the camera on your phone and scan the QR code to launch the WebAR experience instantly — no app download needed.</p>
+        <div class="hiw-connector"><i class="fa-solid fa-arrow-right"></i></div>
+      </div>
+      <div class="hiw-step reveal delay-1">
+        <div class="hiw-num">2</div>
+        <div class="hiw-icon">🔍</div>
+        <h3 class="hiw-title">Open Camera</h3>
+        <p class="hiw-desc">Allow camera access in your browser. Point at any flat surface — floor, table, or wall — to anchor the 3D experience.</p>
+        <div class="hiw-connector"><i class="fa-solid fa-arrow-right"></i></div>
+      </div>
+      <div class="hiw-step reveal delay-2">
+        <div class="hiw-num">3</div>
+        <div class="hiw-icon">🏛️</div>
+        <h3 class="hiw-title">View 3D Culture</h3>
+        <p class="hiw-desc">Watch traditional houses, costumes, foods, and weapons appear in AR. Tap any object to explore its cultural story.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ STATS ═══ -->
+  <div class="stats-section">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-num" data-target="38">0</div>
+        <div class="stat-label">Provinces</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item reveal delay-1">
+        <div class="stat-num" data-target="150" data-suffix="+">0</div>
+        <div class="stat-label">Cultural Objects</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item reveal delay-2">
+        <div class="stat-num">3D</div>
+        <div class="stat-label">Interactive Learning</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ PROVINCE SHOWCASE ═══ -->
+  <div class="section-divider"></div>
+  <section class="nv-section" id="provinces">
+    <div class="section-header">
+      <div class="section-tag">🗺️ Province Showcase</div>
+      <h2 class="section-title">All 38 Provinces of Indonesia</h2>
+      <p class="section-sub">Klik provinsi manapun untuk menjelajahi warisan budayanya dalam 3D.</p>
+    </div>
+    <div class="provinces-grid" id="provGrid"></div>
+    <div class="prov-cta">
+      <a href="#" class="btn-outline">
+        <i class="fa-solid fa-map-location-dot"></i> Explore All Provinces
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT / FEEDBACK ═══ -->
+  <div class="section-divider"></div>
+  <section class="nv-section" id="about">
+    <div class="feedback-box reveal">
+      <div class="fb-deco">🌏</div>
+      <h2 class="fb-title">Lestarikan Budaya Nusantara<br>Bersama LokaNusa 3D</h2>
+      <p class="fb-sub">Platform WebAR edukasi yang menghidupkan warisan budaya 38 provinsi Indonesia. Dapat diakses dari mana saja, kapan saja, tanpa instalasi aplikasi.</p>
+      <div class="fb-btns">
+        <a href="#contact" class="btn-gold"><i class="fa-solid fa-rocket"></i> Mulai Sekarang</a>
+        <a href="#how-it-works" class="btn-outline"><i class="fa-solid fa-circle-info"></i> Pelajari Lebih</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="nv-footer" id="contact">
+    <div class="footer-ornament-top">◆ ❋ ◆ ❋ ◆ ❋ ◆</div>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-brand-name">LokaNusa 3D</div>
+        <p class="footer-brand-desc">Bringing Indonesia's cultural heritage to life through immersive WebAR technology. Explore 38 provinces from anywhere in the world.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <a href="#provinces">Provinces</a>
+          <a href="#how-it-works">AR Experience</a>
+          <a href="#features">3D Gallery</a>
+        </div>
+        <div class="footer-col">
+          <h5>Info</h5>
+          <a href="#about">About Project</a>
+          <a href="#features">Encyclopedia</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 LokaNusa 3D · Preserving Indonesia's Cultural Heritage</div>
+      <div class="footer-ornament-bottom">✦ ◆ ✦</div>
+    </div>
+  </footer>
+
+  <!-- ✅ Diperbaiki: nama file script yang benar -->
+  <script src="/home/main.js"></script>
+</body>
+</html>
