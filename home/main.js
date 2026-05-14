@@ -25,7 +25,7 @@ const provinces = [
     icon: "assets/provinsi/jateng.svg"
   },
   { name: "D.I. Yogyakarta",        icon: "assets/provinsi/yogya.svg",},
-  { name: "Jawa Timur",             icon: "assets/provinsi/JATIM.svg" },
+  { name: "Jawa Timur",             icon: "assets/provinsi/jatim.svg" },
   { name: "Bali",                   icon: "assets/provinsi/bali.svg" },
   { name: "NTB",                    icon: "assets/provinsi/ntb.svg" },
   { name: "NTT",                    icon: "assets/provinsi/ntt.svg" },
