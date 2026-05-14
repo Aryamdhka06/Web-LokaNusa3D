@@ -88,7 +88,7 @@ function renderProvinces() {
 
   setTimeout(() => {
     window.location.href =
-      `/pages/provinsi/provinsi.html?provinsi=${slug}`;
+      `./pages/provinsi/provinsi.html?provinsi=${slug}`;
   }, 1200);
 };
 
