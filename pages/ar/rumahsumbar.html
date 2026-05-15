@@ -10,7 +10,6 @@
   <style>
     body{
       margin:0;
-      overflow:hidden;
       background:#111;
     }
 
@@ -23,27 +22,17 @@
 <body>
 
 <model-viewer
-  id="arModel"
-  src="../../assets/models/sumbar/rumah_gadang_sumatra_barat_indonesia (1).glb"
-
+  src="../../assets/models/sumbar/rumahsumbar.glb"
   ar
   ar-modes="scene-viewer webxr quick-look"
-
   camera-controls
   auto-rotate>
 
+  <button slot="ar-button">
+    Buka AR
+  </button>
+
 </model-viewer>
-
-<script>
-window.onload = ()=>{
-
-  const model =
-  document.getElementById("arModel");
-
-  model.activateAR();
-
-}
-</script>
 
 </body>
 </html>
