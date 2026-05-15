@@ -38,27 +38,28 @@
     <span class="badge">3D · AR · Interaktif</span>
   </header>
 
-  <!-- ═══════════════════════════════════════════
-       MODEL VIEWER
-       ar-scale="fixed"  → ukuran tidak auto-fit ke layar
-       scale="0.05 ..."  → mulai kecil (5% ukuran asli)
-       ar-placement="floor" → ditaruh di lantai
-  ════════════════════════════════════════════ -->
+  <!--
+    PERUBAHAN PENTING:
+    - ar-scale="auto"       → user bisa pinch resize di AR (iOS & Android)
+    - scale="0.03 0.03 0.03"→ ukuran awal di web viewer lebih kecil
+    - min-scale / max-scale → batas resize AR (0.01 = 1%, 0.3 = 30%)
+    - camera-orbit jauh     → supaya model kelihatan penuh di web viewer
+  -->
   <model-viewer
     id="viewer"
     src="../../assets/models/sumbar/rumahsumbar.glb"
     ar
     ar-modes="scene-viewer webxr quick-look"
-    ar-scale="fixed"
+    ar-scale="auto"
     ar-placement="floor"
-    scale="0.05 0.05 0.05"
+    scale="0.03 0.03 0.03"
     camera-controls
     auto-rotate
     auto-rotate-delay="1000"
     rotation-per-second="6deg"
-    camera-orbit="0deg 72deg 18m"
-    min-camera-orbit="auto auto 6m"
-    max-camera-orbit="auto auto 40m"
+    camera-orbit="0deg 65deg 30m"
+    min-camera-orbit="auto auto 10m"
+    max-camera-orbit="auto auto 80m"
     field-of-view="45deg"
     min-field-of-view="20deg"
     max-field-of-view="70deg"
@@ -68,7 +69,7 @@
     interaction-prompt="none"
     touch-action="pan-y"
   >
-    <!-- Slot AR button — wajib di dalam model-viewer agar AR bisa aktif -->
+    <!-- Slot AR button -->
     <button slot="ar-button" id="ar-slot-btn">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
            stroke-linecap="round" stroke-linejoin="round">
@@ -83,7 +84,7 @@
       <span class="ar-scale-label">Ukuran Model</span>
       <div class="ar-scale-row">
         <button id="ar-scale-down" class="ar-scale-btn">−</button>
-        <span id="ar-scale-val">5%</span>
+        <span id="ar-scale-val">3%</span>
         <button id="ar-scale-up"   class="ar-scale-btn">+</button>
       </div>
     </div>
@@ -165,6 +166,6 @@
     </div>
   </div>
 
-  <script src="viewer.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

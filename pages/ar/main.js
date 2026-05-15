@@ -1,22 +1,22 @@
 /* ═══════════════════════════════════════════════
-   viewer.js — Rumah Gadang 3D Viewer
+   main.js — Rumah Gadang 3D Viewer
    ═══════════════════════════════════════════════ */
 
-const viewer      = document.getElementById('viewer');
-const overlay     = document.getElementById('loading-overlay');
-const fill        = document.getElementById('progress-fill');
-const btnReset    = document.getElementById('btn-reset');
-const btnRotate   = document.getElementById('btn-rotate');
-const btnZoomIn   = document.getElementById('btn-zoomin');
-const btnZoomOut  = document.getElementById('btn-zoomout');
-const arTrigger   = document.getElementById('ar-trigger');
-const arScalePanel= document.getElementById('ar-scale-panel');
-const arScaleUp   = document.getElementById('ar-scale-up');
-const arScaleDown = document.getElementById('ar-scale-down');
-const arScaleVal  = document.getElementById('ar-scale-val');
+const viewer       = document.getElementById('viewer');
+const overlay      = document.getElementById('loading-overlay');
+const fill         = document.getElementById('progress-fill');
+const btnReset     = document.getElementById('btn-reset');
+const btnRotate    = document.getElementById('btn-rotate');
+const btnZoomIn    = document.getElementById('btn-zoomin');
+const btnZoomOut   = document.getElementById('btn-zoomout');
+const arTrigger    = document.getElementById('ar-trigger');
+const arScalePanel = document.getElementById('ar-scale-panel');
+const arScaleUp    = document.getElementById('ar-scale-up');
+const arScaleDown  = document.getElementById('ar-scale-down');
+const arScaleVal   = document.getElementById('ar-scale-val');
 
 /* ── KAMERA DEFAULT ───────────────────────────── */
-const DEFAULT_ORBIT = '0deg 72deg 18m';
+const DEFAULT_ORBIT = '0deg 65deg 30m';
 const DEFAULT_FOV   = '45deg';
 
 /* ── ICON SVG ─────────────────────────────────── */
@@ -25,14 +25,15 @@ const ICON_PAUSE = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" s
 
 /* ─────────────────────────────────────────────────
    SKALA AR
-   ar-scale="fixed" → ukuran dikontrol lewat atribut scale
-   Kita mulai kecil (0.05 = 5%) lalu beri tombol +/−
-   Step: 1% per klik, range: 1% – 50%
+   Karena ar-scale="auto", tombol +/− di sini
+   mengubah atribut `scale` pada model-viewer.
+   Ini mempengaruhi ukuran awal saat AR dibuka.
+   Range: 1% – 30%, step: 1%
 ──────────────────────────────────────────────────── */
-let arScalePct = 5;   // persen, sesuai scale="0.05 0.05 0.05"
-const AR_STEP  = 1;   // step per klik
+let arScalePct = 3;   // mulai dari 3% (sesuai scale="0.03" di HTML)
+const AR_STEP  = 1;
 const AR_MIN   = 1;
-const AR_MAX   = 50;
+const AR_MAX   = 30;
 
 function applyARScale() {
   const s = (arScalePct / 100).toFixed(3);
@@ -67,7 +68,7 @@ arTrigger.addEventListener('click', () => {
   viewer.activateAR();
 });
 
-/* Tampilkan / sembunyikan panel skala berdasarkan status AR */
+/* ── TAMPILKAN / SEMBUNYIKAN PANEL SKALA ─────── */
 viewer.addEventListener('ar-status', (e) => {
   if (e.detail.status === 'session-started') {
     arScalePanel.classList.add('visible');
@@ -98,12 +99,12 @@ btnRotate.addEventListener('click', () => {
 /* ── ZOOM IN / OUT (mode 3D biasa) ───────────── */
 btnZoomIn.addEventListener('click', () => {
   const orb  = viewer.getCameraOrbit();
-  const newR = Math.max(6, orb.radius * 0.75);
+  const newR = Math.max(10, orb.radius * 0.75);
   viewer.cameraOrbit = `${orb.theta}rad ${orb.phi}rad ${newR}m`;
 });
 
 btnZoomOut.addEventListener('click', () => {
   const orb  = viewer.getCameraOrbit();
-  const newR = Math.min(40, orb.radius * 1.35);
+  const newR = Math.min(80, orb.radius * 1.35);
   viewer.cameraOrbit = `${orb.theta}rad ${orb.phi}rad ${newR}m`;
 });
