@@ -283,174 +283,152 @@
       </article>
 
       <!-- ── CARD 3: Makanan Tradisional ── -->
-      <article class="culture-card card-food" data-category="makanan" tabindex="0">
-        <div class="card-glow-border"></div>
+      <!-- ── CARD 3: Makanan Tradisional ── -->
+<article class="culture-card card-food" data-category="makanan" tabindex="0">
+  <div class="card-glow-border"></div>
 
-        <div class="card-image-zone">
-          <input type="file" id="upload-makanan" accept="image/*" class="upload-input" onchange="handleUpload(event,'makanan')" />
-          <div class="card-img-placeholder" id="placeholder-makanan">
-            <div class="placeholder-icon">
-              <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="40" cy="48" rx="28" ry="16" fill="none" stroke="url(#foodGrad)" stroke-width="1.5"/>
-                <path d="M12 48 Q12 28 40 28 Q68 28 68 48" fill="none" stroke="url(#foodGrad)" stroke-width="1.5"/>
-                <ellipse cx="40" cy="28" rx="22" ry="8" fill="none" stroke="url(#foodGrad)" stroke-width="1"/>
-                <path d="M30 20 Q40 12 50 20" fill="none" stroke="url(#foodGrad)" stroke-width="1.2"/>
-                <defs>
-                  <linearGradient id="foodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#1ec8b0"/>
-                    <stop offset="100%" stop-color="#c9a84c"/>
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-            <p class="placeholder-text">Ketuk untuk unggah gambar</p>
-            <span class="placeholder-hint">PNG / JPG / WEBP</span>
-          </div>
-          <img
-  id="img-makanan"
-  class="card-uploaded-img"
-  src=""
-  alt="Makanan Tradisional"
-/>
-          <div class="card-img-overlay">
-            <button class="img-change-btn" onclick="event.stopPropagation();triggerUpload('makanan')">Ganti Foto</button>
-          </div>
-          <div class="card-category-badge badge-teal">
-            <span>🍛</span> Makanan Tradisional
-          </div>
-        </div>
+  <!-- Image Zone -->
+  <div class="card-image-zone">
+    <img
+      id="img-makanan"
+      class="card-asset-img"
+      src=""
+      alt="Makanan Tradisional"
+    />
 
-        <div class="card-body">
-          <div class="card-header-row">
-            <div>
-              <h3 class="card-title" id="title-makanan"></h3>
-              <p class="card-origin" id="origin-makanan"></p>
-            </div>
-            <div class="card-ar-indicator">
-              <div class="ar-mini-dot"></div>
-              AR
-            </div>
-          </div>
+    <div class="card-img-overlay"></div>
 
-          <div class="card-desc-area">
-            <p class="card-desc" id="desc-makanan"></p>
-          </div>
+    <div class="card-category-badge badge-teal">
+      <span>🍛</span> Makanan Tradisional
+    </div>
+  </div>
 
-          <div class="card-meta-row">
-            <div class="meta-chip">
-              <span class="meta-icon">🌿</span>
-              <span id="meta-makanan-loc"></span>
-            </div>
-            <div class="meta-chip">
-              <span class="meta-icon">⏳</span>
-              <span id="meta-makanan-style"></span>
-            </div>
-          </div>
+  <!-- Card Body -->
+  <div class="card-body">
+    <div class="card-header-row">
+      <div>
+        <h3 class="card-title" id="title-makanan"></h3>
+        <p class="card-origin" id="origin-makanan"></p>
+      </div>
 
-          <div class="card-actions">
-            <button class="btn-qr" id="btn-qr-makanan">
-              <svg viewBox="0 0 24 24" class="btn-icon-svg" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
-                <rect x="3" y="14" width="7" height="7"/>
-                <path d="M14 14h3v3M17 20h3M20 17v3"/>
-              </svg>
-              Pindai QR
-            </button>
-            <button class="btn-ar" id="btn-ar-makanan">
-              <svg viewBox="0 0 24 24" class="btn-icon-svg" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M3 7V5a2 2 0 012-2h2M17 3h2a2 2 0 012 2v2M21 17v2a2 2 0 01-2 2h-2M7 21H5a2 2 0 01-2-2v-2"/>
-                <circle cx="12" cy="12" r="3"/>
-              </svg>
-              Buka AR
-              <span class="ar-live-badge">LIVE</span>
-            </button>
-          </div>
-        </div>
-      </article>
+      <div class="card-ar-indicator">
+        <div class="ar-mini-dot"></div>
+        AR
+      </div>
+    </div>
+
+    <div class="card-desc-area">
+      <p class="card-desc" id="desc-makanan"></p>
+    </div>
+
+    <div class="card-meta-row">
+      <div class="meta-chip">
+        <span class="meta-icon">🌿</span>
+        <span id="meta-makanan-loc"></span>
+      </div>
+
+      <div class="meta-chip">
+        <span class="meta-icon">⏳</span>
+        <span id="meta-makanan-style"></span>
+      </div>
+    </div>
+
+    <div class="card-actions">
+      <button class="btn-qr" id="btn-qr-makanan">
+        <svg viewBox="0 0 24 24" class="btn-icon-svg" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="7" height="7"/>
+          <rect x="14" y="3" width="7" height="7"/>
+          <rect x="3" y="14" width="7" height="7"/>
+          <path d="M14 14h3v3M17 20h3M20 17v3"/>
+        </svg>
+        Pindai QR
+      </button>
+
+      <button class="btn-ar" id="btn-ar-makanan">
+        <svg viewBox="0 0 24 24" class="btn-icon-svg" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 7V5a2 2 0 012-2h2M17 3h2a2 2 0 012 2v2M21 17v2a2 2 0 01-2 2h-2M7 21H5a2 2 0 01-2-2v-2"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+        Buka AR
+        <span class="ar-live-badge">LIVE</span>
+      </button>
+    </div>
+  </div>
+</article>
 
       <!-- ── CARD 4: Pakaian Tradisional ── -->
-      <article class="culture-card card-cloth" data-category="pakaian" tabindex="0">
-        <div class="card-glow-border"></div>
+      <!-- ── CARD 4: Pakaian Tradisional ── -->
+<article class="culture-card card-cloth" data-category="pakaian" tabindex="0">
+  <div class="card-glow-border"></div>
 
-        <div class="card-image-zone">
-          <input type="file" id="upload-pakaian" accept="image/*" class="upload-input" onchange="handleUpload(event,'pakaian')" />
-          <div class="card-img-placeholder" id="placeholder-pakaian">
-            <div class="placeholder-icon">
-              <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-                <path d="M25 12 L10 25 L20 28 L20 68 L60 68 L60 28 L70 25 L55 12 L46 22 Q40 16 34 22 Z" fill="none" stroke="url(#clothGrad)" stroke-width="1.5"/>
-                <path d="M34 22 L34 36 Q40 32 46 36 L46 22" fill="none" stroke="url(#clothGrad)" stroke-width="1"/>
-                <defs>
-                  <linearGradient id="clothGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#ec4899"/>
-                    <stop offset="100%" stop-color="#7c3aed"/>
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-            <p class="placeholder-text">Ketuk untuk unggah gambar</p>
-            <span class="placeholder-hint">PNG / JPG / WEBP</span>
-          </div>
-          <img
-  id="img-pakaian"
-  class="card-uploaded-img"
-  src=""
-  alt="Pakaian Tradisional"
-/>
-          <div class="card-img-overlay">
-            <button class="img-change-btn" onclick="event.stopPropagation();triggerUpload('pakaian')">Ganti Foto</button>
-          </div>
-          <div class="card-category-badge badge-rose">
-            <span>👘</span> Pakaian Tradisional
-          </div>
-        </div>
+  <!-- Image Zone -->
+  <div class="card-image-zone">
+    <img
+      id="img-pakaian"
+      class="card-asset-img"
+      src=""
+      alt="Pakaian Tradisional"
+    />
 
-        <div class="card-body">
-          <div class="card-header-row">
-            <div>
-              <h3 class="card-title" id="title-pakaian"></h3>
-              <p class="card-origin" id="origin-pakaian"></p>
-            </div>
-            <div class="card-ar-indicator">
-              <div class="ar-mini-dot"></div>
-              AR
-            </div>
-          </div>
+    <div class="card-img-overlay"></div>
 
-          <div class="card-desc-area">
-            <p class="card-desc" id="desc-pakaian"></p>
-          </div>
+    <div class="card-category-badge badge-rose">
+      <span>👘</span> Pakaian Tradisional
+    </div>
+  </div>
 
-          <div class="card-meta-row">
-            <div class="meta-chip">
-              <span class="meta-icon">🎨</span>
-              <span id="meta-pakaian-loc"></span>
-            </div>
-            <div class="meta-chip">
-              <span class="meta-icon">✨</span>
-              <span id="meta-pakaian-style"></span>
-            </div>
-          </div>
+  <!-- Card Body -->
+  <div class="card-body">
+    <div class="card-header-row">
+      <div>
+        <h3 class="card-title" id="title-pakaian"></h3>
+        <p class="card-origin" id="origin-pakaian"></p>
+      </div>
 
-          <div class="card-actions">
-            <button class="btn-qr" id="btn-qr-pakaian">
-              <svg viewBox="0 0 24 24" class="btn-icon-svg" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
-                <rect x="3" y="14" width="7" height="7"/>
-                <path d="M14 14h3v3M17 20h3M20 17v3"/>
-              </svg>
-              Pindai QR
-            </button>
-            <button class="btn-ar" id="btn-ar-pakaian">
-              <svg viewBox="0 0 24 24" class="btn-icon-svg" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M3 7V5a2 2 0 012-2h2M17 3h2a2 2 0 012 2v2M21 17v2a2 2 0 01-2 2h-2M7 21H5a2 2 0 01-2-2v-2"/>
-                <circle cx="12" cy="12" r="3"/>
-              </svg>
-              Buka AR
-              <span class="ar-live-badge">LIVE</span>
-            </button>
-          </div>
-        </div>
-      </article>
+      <div class="card-ar-indicator">
+        <div class="ar-mini-dot"></div>
+        AR
+      </div>
+    </div>
+
+    <div class="card-desc-area">
+      <p class="card-desc" id="desc-pakaian"></p>
+    </div>
+
+    <div class="card-meta-row">
+      <div class="meta-chip">
+        <span class="meta-icon">🎨</span>
+        <span id="meta-pakaian-loc"></span>
+      </div>
+
+      <div class="meta-chip">
+        <span class="meta-icon">✨</span>
+        <span id="meta-pakaian-style"></span>
+      </div>
+    </div>
+
+    <div class="card-actions">
+      <button class="btn-qr" id="btn-qr-pakaian">
+        <svg viewBox="0 0 24 24" class="btn-icon-svg" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="7" height="7"/>
+          <rect x="14" y="3" width="7" height="7"/>
+          <rect x="3" y="14" width="7" height="7"/>
+          <path d="M14 14h3v3M17 20h3M20 17v3"/>
+        </svg>
+        Pindai QR
+      </button>
+
+      <button class="btn-ar" id="btn-ar-pakaian">
+        <svg viewBox="0 0 24 24" class="btn-icon-svg" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 7V5a2 2 0 012-2h2M17 3h2a2 2 0 012 2v2M21 17v2a2 2 0 01-2 2h-2M7 21H5a2 2 0 01-2-2v-2"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+        Buka AR
+        <span class="ar-live-badge">LIVE</span>
+      </button>
+    </div>
+  </div>
+</article>
 
     </div><!-- /cards-grid -->
   </section>

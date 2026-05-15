@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+
+  <style>
+    body{
+      margin:0;
+      overflow:hidden;
+      background:#111;
+    }
+
+    model-viewer{
+      width:100vw;
+      height:100vh;
+    }
+  </style>
+</head>
+<body>
+
+<model-viewer
+  id="arModel"
+  src="../../assets/models/sumbar/rumah_gadang_sumatra_barat_indonesia (1).glb"
+
+  ar
+  ar-modes="scene-viewer webxr quick-look"
+
+  camera-controls
+  auto-rotate>
+
+</model-viewer>
+
+<script>
+window.onload = ()=>{
+
+  const model =
+  document.getElementById("arModel");
+
+  model.activateAR();
+
+}
+</script>
+
+</body>
+</html>
