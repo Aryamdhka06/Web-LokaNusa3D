@@ -371,3 +371,84 @@ model-viewer {
     display: none;
   }
 }
+
+/* ── AR SLOT BUTTON (tersembunyi, trigger dari luar) ── */
+#ar-slot-btn {
+  display: none;
+}
+
+/* ── AR SCALE PANEL ──────────────────────────────────
+   Hanya tampil saat model-viewer masuk mode AR.
+   model-viewer menambahkan class "ar-mode" ke elemen
+   saat AR aktif, dan meremove saat keluar.
+────────────────────────────────────────────────────── */
+#ar-scale-panel {
+  display: none; /* disembunyikan secara default */
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(13, 13, 13, 0.88);
+  border: 1px solid rgba(201, 168, 76, 0.35);
+  border-radius: 14px;
+  padding: 12px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  backdrop-filter: blur(12px);
+  z-index: 9999;
+}
+
+/* Tampilkan panel saat AR aktif */
+:host(.ar-mode) #ar-scale-panel,
+model-viewer.ar-mode #ar-scale-panel,
+.ar-mode #ar-scale-panel {
+  display: flex;
+}
+
+/* Fallback: ditampilkan via JS saat event ar-status */
+#ar-scale-panel.visible {
+  display: flex;
+}
+
+.ar-scale-label {
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.ar-scale-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ar-scale-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(201, 168, 76, 0.5);
+  background: rgba(201, 168, 76, 0.12);
+  color: #E8D4A0;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.ar-scale-btn:hover {
+  background: rgba(201, 168, 76, 0.25);
+  border-color: #C9A84C;
+}
+
+#ar-scale-val {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #C9A84C;
+  min-width: 40px;
+  text-align: center;
+}
