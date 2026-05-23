@@ -9,6 +9,272 @@
 
 
 /* ─────────────────────────────────────────
+   AR LINKS
+───────────────────────────────────────── */
+
+const arLinks = {
+  "aceh": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Alat%20musik.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Rumah%20adat.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Makanan.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Pakaian%20adat.glb",
+  },
+  "bali": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Rumah%20adat%20.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Senjata%20bali.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Makanan%20bali%20.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Pakaian%20bali.glb",
+  },
+  "bangka-belitung": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/rumahadat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/Alat%20musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/Makanan%20khas.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/pakaian%20adat.glb",
+  },
+  "banten": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Senjata%20tradisional.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Alat%20musik.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/pakaian%20adat.glb",
+  },
+  "bengkulu": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bengkulu/rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bengkulu/senjata%20tradisional.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bengkulu/Makanan%20khas.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bengkulu/Pakaian%20adat.glb",
+  },
+
+  "di-yogyakarta": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=D.I.Yogyakarta/Rumah%20jogja.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=D.I.Yogyakarta/Senjata%20jogja.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=D.I.Yogyakarta/Makanan%20jogja.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=D.I.Yogyakarta/Pakaian%20jojga.glb",
+  },
+
+  "dki-jakarta": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=DKI%20Jakarta/Rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=DKI%20Jakarta/Senjata%20tradisional.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=DKI%20Jakarta/Makanan%20khas.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=DKI%20Jakarta/Pakaian%20adat.glb",
+  },
+
+  "gorontalo": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/alat%20musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/makanan.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/baju%20adat.glb",
+  },
+
+  "jambi": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jambi/rumahjambi.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jambi/Senjata.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jambi/Makanan.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jambi/Pakaian.glb",
+  },
+
+  "jawa-barat": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Barat/Rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Barat/Senjata%20tradisional.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Barat/Makanan%20khas.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Barat/pakaian%20adat.glb",
+  },
+
+  "jawa-tengah": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Tengah/Rumah%20semarang.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Tengah/Senjata%20semarang.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Tengah/Makanan%20semarang.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Tengah/Pakaian%20semarang.glb",
+  },
+
+  "jawa-timur": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Timur/Rumah%20surabaya.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Timur/Senjata%20surabaya.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Timur/Rawon%20surabaya.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jawa%20Timur/Pakaian%20surabaya.glb",
+  },
+
+  "kalimantan-barat": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Red_Stilt_House_0519083956_texture.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Geometric_Djembe_0519082212_texture.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Bamboo_leaf_wrapped_z_0519082836_texture.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Twin_Feathered_Headdr_0519083437_texture.glb",
+  },
+
+  "kalimantan-selatan": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Selatan/Meshy_AI_Redshield_Warrior_0518082048_texture.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Selatan/Meshy_AI_Redshield_Warrior_0518080953_texture.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Selatan/Meshy_AI_Thai_style_Chicken_No_0518073411_texture.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Selatan/Meshy_AI_Golden_Royal_Wedding__0518072457_texture.glb",
+  },
+
+  "kalimantan-tengah": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Tengah/Meshy_AI_Rumah_Betang_Kalimant_0518084231_texture.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Tengah/Meshy_AI_Redshield_Warrior_0518080953_texture.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Tengah/Meshy_AI_Yellow_Curry_with_Bam_0518083714_texture.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Tengah/Meshy_AI_Girl_in_Traditional_E_0518083100_texture.glb",
+  },
+
+  "kalimantan-timur": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Timur/Meshy_AI_Stilt_House_with_Gabl_0519043841_texture.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Timur/Meshy_AI_Ornate_Pipa_0519033500_texture.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Timur/Meshy_AI_Golden_Noodle_Soup_wi_0519034150_texture.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Timur/Meshy_AI_Gold_Threaded_Boy_0519034604_texture.glb",
+  },
+
+  "kalimantan-utara": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Emerald_Roofed_House__0518122746_texture.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Crystal_Golem_0518140903_texture.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Crystal_Golem_0518141553_texture.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Ornate_Drum_on_a_Carv_0518132429_texture.glb",
+  },
+
+  "kepulauan-riau": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kepulauan%20Riau/Rumah%20Adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kepulauan%20Riau/Senjata%20Tradisional.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kepulauan%20Riau/Makanan%20Khas.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kepulauan%20Riau/pakaian%20adat.glb",
+  },
+  "maluku-utara": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Thatched_Stilt_House_0521053709_texture.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Red_Scarf_Warrior_0521054058_texture.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Decorated_Djembe_Drum_0521054716_texture.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Traditional_Couple_in_0521055316_texture.glb",
+  },
+
+  "sumatera-utara": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Alat%20musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Tarian.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Pakaian%20adat.glb",
+  },
+
+  "papua": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua/Rumah%20papua.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua/Senjata%20papuan.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua/Makanan%20papua.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua/Pakaian%20papua.glb",
+  },
+
+  "papua-pegunungan": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20%20Pegunungan/Rumah%20Papua%20Pegunungan.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20%20Pegunungan/Senjata%20Papua%20Pegunungan.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20%20Pegunungan/Makanan%20Papua%20Pegunungan%20.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20%20Pegunungan/Pakaian%20Papua%20Pegunungan.glb",
+  },
+
+  "papua-barat": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat/Meshy_AI_Bamboo_Stilt_House_0521050819_texture.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat/Meshy_AI_Stone_Age_Weapons_0521051332_texture.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat/Meshy_AI_Claypot_Congee_with_G_0521052236_texture.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat/Meshy_AI_Island_Warriors_in_Gr_0521053357_texture.glb",
+  },
+  "lampung": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/Tradisi.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/Alat%20musik.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/pakaian%20adat.glb",
+  },
+
+  "maluku": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/alat%20musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/makanan.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/baju%20adat.glb",
+  },
+
+  "ntb": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTB/Rumah%20NTB.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTB/Senjata%20NTB.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTB/Makanan%20NTB.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTB/Pakaian%20NTB.glb",
+  },
+
+  "ntt": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTT/Rumah%20NTT.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTT/Senjata%20NTT.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTT/Makanan%20NTT.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTT/Pakaian%20NTT.glb",
+  },
+
+  "riau": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Riau/Rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Riau/Senjata%20Tradisional%20.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Riau/Makanan%20Khas.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Riau/Pakaian%20Adat.glb",
+  },
+
+  "sulawesi-barat": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/rumah%20adat_.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/alat%20musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/makanan_.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/baju%20adat.glb",
+  },
+
+  "sulawesi-selatan": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/rumah.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/alat%20musik_.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/makanan_.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/baju%20adat_.glb",
+  },
+
+  "sulawesi-tengah": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/alat%20musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/makanan.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/baju%20adat_.glb",
+  },
+
+  "sulawesi-tenggara": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/rumah%20adat_.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/alat%20musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/makanan_.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/Baju%20adat.glb",
+  },
+
+  "sulawesi-utara": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Utara/Meshy_AI_Orange_Stilt_House_0519030213_texture.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Utara/Meshy_AI_Crossed_Swords_on_Red_0519030846_texture.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Utara/Meshy_AI_Shredded_Meat_Congee__0519031720_texture.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Utara/Meshy_AI_Crimson_Feathered_War_0519032511_texture.glb",
+  },
+
+  "sumatera-barat": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatera%20Barat/rumahsumbar.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatera%20Barat/Senjata.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatera%20Barat/Makanan.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatera%20Barat/Pakaian%20adat.glb",
+  },
+
+  "sumatera-selatan": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatera%20Selatan/Rumah%20Adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatera%20Selatan/Senjata.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatera%20Selatan/makanan%20Khas.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatera%20Selatan/Pakaian%20Adat.glb",
+  },
+
+  "papua-barat-daya": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat%20Daya/Rumah.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat%20Daya/Senjata%20papua%20barat%20daya.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat%20Daya/Makanan%20papua%20barat%20daya.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat%20Daya/Pakaian%20adat.glb",
+  },
+
+  "papua-selatan": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/Makanan.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/baju%20adat.glb",
+  },
+
+  "papua-tengah": {
+    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20tengah/rumah%20adat.glb",
+    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20tengah/alat%20musik.glb",
+    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20tengah/makanan.glb",
+    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20tengah/baju%20adat.glb",
+  },
+};
+
+/* ─────────────────────────────────────────
    1. DATABASE PROVINSI
 ───────────────────────────────────────── */
 
@@ -28,7 +294,6 @@ const provinceDatabase = {
       desc:      "Rumoh Aceh adalah rumah tradisional masyarakat Aceh yang dibangun di atas tiang-tiang kayu tinggi sebagai perlindungan dari banjir dan binatang liar. Arsitekturnya memadukan unsur Islam, alam, dan filosofi kehidupan masyarakat Aceh. Setiap ukiran, arah bangunan, dan jumlah anak tangga memiliki makna spiritual yang mendalam.",
       metaLoc:   "Provinsi Aceh",
       metaStyle: "Arsitektur Islami",
-      img:       "../../assets/provinsi/aceh/rumohAceh.jpg",
     },
     weapon: {
       name:      "Rencong",
@@ -36,7 +301,6 @@ const provinceDatabase = {
       desc:      "Rencong adalah senjata tradisional khas Aceh yang menjadi simbol keberanian, kehormatan, dan semangat perjuangan rakyat Aceh. Bentuknya yang melengkung menyerupai huruf Arab dipercaya mencerminkan nilai-nilai Islam yang kuat dalam kehidupan masyarakat Aceh.",
       metaLoc:   "Identitas Budaya Aceh",
       metaStyle: "Pusaka Kehormatan",
-      img:       "../../assets/provinsi/aceh/rencong.webp",
     },
     food: {
       name:      "Mie Aceh",
@@ -44,7 +308,6 @@ const provinceDatabase = {
       desc:      "Mie Aceh adalah kuliner legendaris bercita rasa rempah kuat dengan perpaduan mie tebal, kari khas, dan berbagai pilihan lauk seperti daging, seafood, atau kepiting. Aroma rempah Timur Tengah, India, dan Nusantara berpadu menjadi identitas kuliner Aceh yang mendunia.",
       metaLoc:   "Rempah Pilihan",
       metaStyle: "Cita Rasa Khas",
-      img:       "../../assets/provinsi/aceh/mieaceh.jpg",
     },
     cloth: {
       name:      "Ulee Balang",
@@ -52,7 +315,6 @@ const provinceDatabase = {
       desc:      "Ulee Balang adalah pakaian adat kebesaran masyarakat Aceh yang dahulu dikenakan oleh keluarga kerajaan dan bangsawan. Dominasi warna hitam dipadukan sulaman benang emas melambangkan kewibawaan, kehormatan, dan kejayaan Kesultanan Aceh.",
       metaLoc:   "Sulaman Emas",
       metaStyle: "Warisan Kesultanan",
-      img:       "../../assets/provinsi/aceh/ulee.jpg",
     },
   },
 
@@ -113,6 +375,7 @@ const provinceDatabase = {
       metaLoc:   "Provinsi Bali",
       metaStyle: "Arsitektur Hindu-Bali",
       img:       "assets/provinsi/bali/rumah-bali.jpg",
+      arLink:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Makanan%20bali%20.glb",
     },
     weapon: {
       name:      "Tombak Bali",
@@ -196,7 +459,7 @@ const provinceDatabase = {
       desc:      "Rumah adat ini memiliki ciri khas berupa selasar (selaso) yang lebih rendah dari ruang tengah. Bukan sekadar tempat tinggal, bangunan ini berfungsi sebagai balai pertemuan adat. Atapnya dihiasi ukiran 'Selembayung' yang melambangkan hubungan manusia dengan Tuhan, sesama, dan alam sekitar.",
       metaLoc:   "Provinsi Riau",
       metaStyle: "Arsitektur Melayu Tradisional",
-      img:       "assets/provinsi/riau/selaso-jatuh-kembar.jpg",
+      img:       "../../assets/provinsi/riau/Rumah Adat.png",
     },
     weapon: {
       name:      "Pedang Jenawi",
@@ -204,7 +467,7 @@ const provinceDatabase = {
       desc:      "Pedang Jenawi adalah senjata tradisional kebanggaan masyarakat Melayu Riau yang dahulu digunakan oleh para panglima perang kesultanan. Dengan bilah panjang lurus dan ujung yang runcing, pedang ini mencerminkan keberanian, ketangkasan, dan status tinggi pemegangnya dalam membela kehormatan negeri.",
       metaLoc:   "Identitas Panglima Melayu",
       metaStyle: "Pusaka Perjuangan",
-      img:       "assets/provinsi/riau/pedang-jenawi.jpg",
+      img:       "../../assets/provinsi/riau/senjata.png",
     },
     food: {
       name:      "Gulai Belacan",
@@ -212,7 +475,7 @@ const provinceDatabase = {
       desc:      "Gulai Belacan adalah hidangan ikonik Riau yang berbahan dasar udang segar yang dimasak dengan kuah santan kental yang diperkaya oleh aroma terasi (belacan) khas. Perpaduan rasa pedas, gurih, dan sedikit asam menjadikannya representasi sempurna dari kekayaan hasil laut dan rempah pesisir Sumatra.",
       metaLoc:   "Kekayaan Laut & Rempah",
       metaStyle: "Cita Rasa Pesisir",
-      img:       "assets/provinsi/riau/gulai-belacan.jpg",
+      img:       "../../assets/provinsi/riau/makanan.png",
     },
     cloth: {
       name:      "Indragiri / Teluk Belanga",
@@ -220,7 +483,7 @@ const provinceDatabase = {
       desc:      "Pakaian adat Riau, khususnya Teluk Belanga untuk pria dan Kebaya Laboh untuk wanita, memancarkan kesantunan khas Melayu. Dipadukan dengan kain songket yang dililitkan di pinggang, busana ini melambangkan kerendahan hati, ketaatan pada norma agama, serta kemuliaan budi pekerti.",
       metaLoc:   "Tenunan Songket",
       metaStyle: "Kesantunan Melayu",
-      img:       "assets/provinsi/riau/teluk-belanga.jpg",
+      img:       "../../assets/provinsi/riau/indragiri.png",
     },
   },
 
@@ -1669,6 +1932,50 @@ const provinceDatabase = {
     },
   },
 
+  "di-yogyakarta": {
+    name:       "Daerah Istimewa Yogyakarta",
+    tagline:    "Jantung Budaya Jawa — tanah kesultanan yang agung, perpaduan harmonis antara tradisi leluhur, seni adiluhung, dan keramahtamahan masyarakat yang menjaga warisan filosofi Mataram Islam.",
+    history:    "🏛 Sejarah & Budaya Jawa",
+    region:     "🌿 4 Kabupaten & 1 Kota",
+    culture:    "🎭 150+ Tradisi & Seni Warisan",
+    arObjects:  "4 Objek 3D Tersedia",
+
+    house: {
+      name:       "Joglo Yogyakarta",
+      origin:     "D.I. Yogyakarta, Indonesia",
+      desc:       "Joglo Yogyakarta adalah rumah adat tradisional dengan ciri khas atap tajug yang menjulang tinggi, disangga oleh empat tiang utama (soko guru). Arsitektur ini bukan sekadar tempat tinggal, melainkan simbol status sosial, cerminan nilai religius, serta perwujudan ketenangan hidup masyarakat Jawa.",
+      metaLoc:    "Provinsi D.I. Yogyakarta",
+      metaStyle:  "Arsitektur Tradisional Jawa",
+      img:        "/assets/provinsi/yogyakarta/joglo.jpg",
+    },
+
+    weapon: {
+      name:       "Keris Yogyakarta",
+      origin:     "Warisan Budaya D.I. Yogyakarta, Indonesia",
+      desc:       "Keris Yogyakarta merupakan senjata tradisional sekaligus benda seni spiritual yang memiliki bentuk bilah khas (lurus atau berluk) serta warangka gaya gagrak Yogyakarta. Senjata ini melambangkan ksatriaan, kehormatan, dan tuntunan hidup bagi pemiliknya.",
+      metaLoc:    "Identitas Budaya Jawa",
+      metaStyle:  "Senjata Tradisional & Pusaka",
+      img:        "/assets/provinsi/yogyakarta/keris.jpg",
+    },
+
+    food: {
+      name:       "Gudeg",
+      origin:     "D.I. Yogyakarta, Indonesia",
+      desc:       "Gudeg adalah kuliner tradisional berbahan dasar nangka muda (gori) yang dimasak lama dengan santan, gula jawa, dan bumbu rempah hingga berwarna cokelat khas. Hidangan manis-gurih ini mencerminkan kesabaran, ketelitian, dan filosofi kelembutan masyarakat Yogyakarta.",
+      metaLoc:    "Kuliner Khas Yogyakarta",
+      metaStyle:  "Warisan Kuliner Tradisional",
+      img:        "/assets/provinsi/yogyakarta/gudeg.jpg",
+    },
+
+    cloth: {
+      name:       "Kebaya Kesatrian dan Surjan",
+      origin:     "D.I. Yogyakarta, Indonesia",
+      desc:       "Kebaya Kesatrian dan Surjan (termasuk kain batik motif khas Yogyakarta seperti Parang atau Grompol) merupakan pakaian adat yang melambangkan kesopanan, keanggunan, dan keteguhan iman. Busana ini mencerminkan tata krama luhur serta identitas budaya Kasultanan Yogyakarta.",
+      metaLoc:    "Budaya Mataram Jawa",
+      metaStyle:  "Busana Tradisional Yogyakarta",
+      img:        "/assets/provinsi/yogyakarta/surjan_kebaya.jpg",
+    },
+},
 
 
 
@@ -1678,8 +1985,6 @@ const provinceDatabase = {
   // ── Tambahkan provinsi lain di bawah ini mengikuti struktur yang sama ──
 
 };
-
-
 /* ─────────────────────────────────────────
    2. AMBIL SLUG DARI URL
 ───────────────────────────────────────── */
@@ -1719,21 +2024,53 @@ const CATEGORY_MAP = {
   pakaian: 'cloth',
 };
 
-function populateCard(cat, data) {
+function populateCard(cat, data, slug) {
   setText(`title-${cat}`,      data.name);
   setText(`origin-${cat}`,     data.origin);
   setText(`desc-${cat}`,       data.desc);
   setText(`meta-${cat}-loc`,   data.metaLoc);
   setText(`meta-${cat}-style`, data.metaStyle);
-  setSrc(`img-${cat}`,         data.img, data.name);
 
-  const btnQR = document.getElementById(`btn-qr-${cat}`);
-  if (btnQR) btnQR.onclick = () => openQRModal(cat, data.name);
+  // Selalu pakai getImgPath, abaikan data.img
+  setSrc(`img-${cat}`, getImgPath(slug, cat), data.name);
 
   const btnAR = document.getElementById(`btn-ar-${cat}`);
-  if (btnAR) btnAR.onclick = () => openARModal(cat, data.name);
+  if (btnAR) {
+    const link = arLinks[slug]?.[CATEGORY_MAP[cat]];
+    btnAR.onclick = () => link ? window.open(link, '_blank') : alert('Link AR belum tersedia');
+  }
 }
 
+
+function getImgPath(slug, category) {
+  const catMap = {
+    rumah:   'rumah',
+    senjata: 'senjata',
+    makanan: 'makanan',
+    pakaian: 'pakaian',
+  };
+  return `/assets/provinsi/${slug}/${catMap[category]}`;
+}
+
+function setSrc(id, src, alt) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.alt = alt || '';
+
+  // Kalau src sudah ada ekstensinya (dari data.img), langsung pakai
+  if (src && (src.endsWith('.jpg') || src.endsWith('.png') || src.endsWith('.webp') || src.endsWith('.jpeg'))) {
+    el.src = src;
+    el.onerror = null;
+    return;
+  }
+
+  // Fallback: coba .jpg dulu, kalau gagal coba .png
+  el.src = src + '.jpg';
+  el.onerror = function () {
+    el.onerror = null; // hindari infinite loop
+    el.src = src + '.png';
+  };
+}
 
 /* ─────────────────────────────────────────
    5. ISI SEMUA ELEMEN HALAMAN
@@ -1756,8 +2093,8 @@ function populatePage(slug) {
   setText('footer-province',       `${p.name}, Indonesia`);
 
   for (const [cat, key] of Object.entries(CATEGORY_MAP)) {
-    populateCard(cat, p[key]);
-  }
+  populateCard(cat, p[key], slug);
+}
 }
 
 
@@ -1932,7 +2269,7 @@ function openARModal(category, name) {
     document.body.style.overflow = 'hidden';
     trapFocus(modal);
   }
-}
+} 
 
 function closeARModal() {
   const modal = document.getElementById('arModal');
@@ -1947,77 +2284,6 @@ function closeARModal() {
    10. QR MODAL + QR CODE GENERATOR
 ───────────────────────────────────────── */
 
-function generateQRPattern(slug) {
-  const SIZE = 21;
-  const CELL = 200 / SIZE;
-
-  let seed = 0;
-  for (let i = 0; i < slug.length; i++) seed = (seed * 31 + slug.charCodeAt(i)) >>> 0;
-  function seededRand() {
-    seed ^= seed << 13; seed ^= seed >> 17; seed ^= seed << 5;
-    return (seed >>> 0) / 0xFFFFFFFF;
-  }
-
-  const grid = Array.from({ length: SIZE }, () => Array(SIZE).fill(0));
-  for (let r = 0; r < SIZE; r++)
-    for (let c = 0; c < SIZE; c++)
-      grid[r][c] = seededRand() > 0.5 ? 1 : 0;
-
-  function drawFinder(r0, c0) {
-    for (let dr = 0; dr < 7; dr++)
-      for (let dc = 0; dc < 7; dc++) {
-        const onOuter = dr === 0 || dr === 6 || dc === 0 || dc === 6;
-        const onInner = dr >= 2 && dr <= 4 && dc >= 2 && dc <= 4;
-        grid[r0 + dr][c0 + dc] = (onOuter || onInner) ? 1 : 0;
-      }
-  }
-
-  drawFinder(0, 0);
-  drawFinder(0, SIZE - 7);
-  drawFinder(SIZE - 7, 0);
-
-  for (let i = 8; i < SIZE - 8; i++) {
-    grid[6][i] = i % 2 === 0 ? 1 : 0;
-    grid[i][6] = i % 2 === 0 ? 1 : 0;
-  }
-
-  let rects = '';
-  for (let r = 0; r < SIZE; r++)
-    for (let c = 0; c < SIZE; c++)
-      if (grid[r][c]) {
-        const x  = c * CELL, y = r * CELL;
-        const rx = CELL > 6 ? 1.5 : 0.5;
-        rects += `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${CELL.toFixed(1)}" height="${CELL.toFixed(1)}" rx="${rx}" fill="#111"/>`;
-      }
-  return rects;
-}
-
-function openQRModal(category, name) {
-  const modal  = document.getElementById('qrModal');
-  const nameEl = document.getElementById('qr-object-name');
-  const slugEl = document.getElementById('qr-slug');
-  const svgEl  = document.getElementById('qr-svg');
-  const slug   = (name || category).toLowerCase().replace(/\s+/g, '-');
-
-  if (nameEl) nameEl.textContent = name || '—';
-  if (slugEl) slugEl.textContent = slug;
-  if (svgEl)  svgEl.innerHTML    = generateQRPattern(slug);
-
-  if (modal) {
-    modal.classList.add('open');
-    document.body.style.overflow = 'hidden';
-    trapFocus(modal);
-  }
-}
-
-function closeQRModal() {
-  const modal = document.getElementById('qrModal');
-  if (modal) {
-    modal.classList.remove('open');
-    document.body.style.overflow = '';
-  }
-}
-
 
 /* ─────────────────────────────────────────
    11. MODAL — Keyboard & backdrop close
@@ -2029,7 +2295,7 @@ document.addEventListener('keydown', e => {
 
 document.querySelectorAll('.modal-overlay').forEach(overlay => {
   overlay.addEventListener('click', e => {
-    if (e.target === overlay) { closeARModal(); closeQRModal(); }
+    if (e.target === overlay) { closeARModal(); }
   });
 });
 
@@ -2095,49 +2361,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 /* ─────────────────────────────────────────
    14. DOWNLOAD QR BUTTON
 ───────────────────────────────────────── */
-
-(function initDownloadQR() {
-  const btn = document.querySelector('.btn-download-qr');
-  if (!btn) return;
-
-  btn.addEventListener('click', () => {
-    const svgEl  = document.getElementById('qr-svg');
-    const slugEl = document.getElementById('qr-slug');
-    if (!svgEl) return;
-
-    const slug    = slugEl ? slugEl.textContent : 'lokanusa-qr';
-    const svgData = new XMLSerializer().serializeToString(svgEl);
-    const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
-    const url     = URL.createObjectURL(svgBlob);
-    const a       = document.createElement('a');
-    a.href = url; a.download = `lokanusa-qr-${slug}.svg`;
-    document.body.appendChild(a); a.click();
-    document.body.removeChild(a); URL.revokeObjectURL(url);
-  });
-})();
-
-
-/* ─────────────────────────────────────────
-   15. HERO — Launch AR button (stub)
-───────────────────────────────────────── */
-
-(function initHeroAR() {
-  const launchBtn = document.querySelector('.btn-launch-ar');
-  if (!launchBtn) return;
-
-  launchBtn.addEventListener('click', () => {
-    const original = launchBtn.textContent;
-    launchBtn.textContent = '⏳ Menghubungkan ke kamera…';
-    launchBtn.disabled = true;
-    setTimeout(() => {
-      launchBtn.textContent = '✅ Kamera siap! (Demo Mode)';
-      setTimeout(() => {
-        launchBtn.textContent = original;
-        launchBtn.disabled    = false;
-      }, 2000);
-    }, 1800);
-  });
-})();
 
 
 /* ─────────────────────────────────────────
