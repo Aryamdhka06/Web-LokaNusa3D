@@ -25,18 +25,18 @@ const arLinks = {
     food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Makanan%20bali%20.glb",
     cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Pakaian%20bali.glb",
   },
-  "bangka-belitung": {
+  "kep-bangka-belitung": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/rumahadat.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/Alat%20musik.glb",
+    music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/Alat%20musik.glb",
     food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/Makanan%20khas.glb",
     cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=BangkaBelitung/pakaian%20adat.glb",
   },
   "banten": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Rumah%20adat.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Senjata%20tradisional.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Alat%20musik.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/pakaian%20adat.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Rumah%20adat.glb",
+  weapon: "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Senjata%20tradisional.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/Alat%20musik.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Banten/pakaian%20adat.glb",
+},
   "bengkulu": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bengkulu/rumah%20adat.glb",
     weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bengkulu/senjata%20tradisional.glb",
@@ -59,11 +59,11 @@ const arLinks = {
   },
 
   "gorontalo": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/rumah%20adat.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/alat%20musik.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/makanan.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/baju%20adat.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/rumah%20adat.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/alat%20musik.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/makanan.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Gorontalo/baju%20adat.glb",
+},
 
   "jambi": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Jambi/rumahjambi.glb",
@@ -94,11 +94,11 @@ const arLinks = {
   },
 
   "kalimantan-barat": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Red_Stilt_House_0519083956_texture.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Geometric_Djembe_0519082212_texture.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Bamboo_leaf_wrapped_z_0519082836_texture.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Twin_Feathered_Headdr_0519083437_texture.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Red_Stilt_House_0519083956_texture.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Geometric_Djembe_0519082212_texture.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Bamboo_leaf_wrapped_z_0519082836_texture.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Barat/Meshy_AI_Twin_Feathered_Headdr_0519083437_texture.glb",
+},
 
   "kalimantan-selatan": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Selatan/Meshy_AI_Redshield_Warrior_0518082048_texture.glb",
@@ -122,11 +122,11 @@ const arLinks = {
   },
 
   "kalimantan-utara": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Emerald_Roofed_House__0518122746_texture.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Crystal_Golem_0518140903_texture.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Crystal_Golem_0518141553_texture.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Ornate_Drum_on_a_Carv_0518132429_texture.glb",
-  },
+  house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Emerald_Roofed_House__0518122746_texture.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Ornate_Drum_on_a_Carv_0518132429_texture.glb",
+  food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Crystal_Golem_0518140903_texture.glb",
+  cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kalimantan%20Utara/Meshy_AI_Crystal_Golem_0518141553_texture.glb",
+},
 
   "kepulauan-riau": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kepulauan%20Riau/Rumah%20Adat.glb",
@@ -135,18 +135,18 @@ const arLinks = {
     cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Kepulauan%20Riau/pakaian%20adat.glb",
   },
   "maluku-utara": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Thatched_Stilt_House_0521053709_texture.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Red_Scarf_Warrior_0521054058_texture.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Decorated_Djembe_Drum_0521054716_texture.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Traditional_Couple_in_0521055316_texture.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Thatched_Stilt_House_0521053709_texture.glb",
+  dance:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Red_Scarf_Warrior_0521054058_texture.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Decorated_Djembe_Drum_0521054716_texture.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku%20Utara/Meshy_AI_Traditional_Couple_in_0521055316_texture.glb",
+},
 
   "sumatera-utara": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Rumah%20adat.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Alat%20musik.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Tarian.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Pakaian%20adat.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Rumah%20adat.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Alat%20musik.glb",  // ← ganti dari weapon
+  dance:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Tarian.glb",        // ← ganti dari food
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sumatra%20Utara/Pakaian%20adat.glb",
+},
 
   "papua": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua/Rumah%20papua.glb",
@@ -168,19 +168,19 @@ const arLinks = {
     food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat/Meshy_AI_Claypot_Congee_with_G_0521052236_texture.glb",
     cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Papua%20Barat/Meshy_AI_Island_Warriors_in_Gr_0521053357_texture.glb",
   },
-  "lampung": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/rumah%20adat.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/Tradisi.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/Alat%20musik.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/pakaian%20adat.glb",
-  },
+ "lampung": {
+  house:      "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/rumah%20adat.glb",
+  tradition:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/Tradisi.glb",
+  music:      "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/Alat%20musik.glb",
+  cloth:      "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Lampung/pakaian%20adat.glb",
+},
 
   "maluku": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/rumah%20adat.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/alat%20musik.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/makanan.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/baju%20adat.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/rumah%20adat.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/alat%20musik.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/makanan.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Maluku/baju%20adat.glb",
+},
 
   "ntb": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=NTB/Rumah%20NTB.glb",
@@ -203,33 +203,33 @@ const arLinks = {
     cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Riau/Pakaian%20Adat.glb",
   },
 
-  "sulawesi-barat": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/rumah%20adat_.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/alat%20musik.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/makanan_.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/baju%20adat.glb",
-  },
+   "sulawesi-barat": {
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/rumah%20adat_.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/alat%20musik.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/makanan_.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Barat/baju%20adat.glb",
+},
 
   "sulawesi-selatan": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/rumah.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/alat%20musik_.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/makanan_.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/baju%20adat_.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/rumah.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/alat%20musik_.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/makanan_.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Selatan/baju%20adat_.glb",
+},
 
   "sulawesi-tengah": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/rumah%20adat.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/alat%20musik.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/makanan.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/baju%20adat_.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/rumah%20adat.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/alat%20musik.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/makanan.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tengah/baju%20adat_.glb",
+},
 
   "sulawesi-tenggara": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/rumah%20adat_.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/alat%20musik.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/makanan_.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/Baju%20adat.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/rumah%20adat_.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/alat%20musik.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/makanan_.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Tenggara/Baju%20adat.glb",
+},
 
   "sulawesi-utara": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Sulawesi%20Utara/Meshy_AI_Orange_Stilt_House_0519030213_texture.glb",
@@ -260,11 +260,11 @@ const arLinks = {
   },
 
   "papua-selatan": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/rumah%20adat.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/musik.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/Makanan.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/baju%20adat.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/rumah%20adat.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/musik.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/Makanan.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20selatan/baju%20adat.glb",
+},
 
   "papua-tengah": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=papua%20tengah/rumah%20adat.glb",
@@ -503,22 +503,20 @@ const provinceDatabase = {
       metaStyle: "Arsitektur Vernakular Batak",
       img:       "/assets/provinsi/sumut/bolon.jpg",
     },
-    weapon: {
-      name:      "Piso Gaja Dompak",
-      origin:    "Warisan Budaya Batak, Indonesia",
-      desc:      "Piso Gaja Dompak adalah senjata pusaka yang memiliki ukiran gajah pada gagangnya. Senjata ini bukan untuk berperang secara umum, melainkan benda magis yang dianggap memiliki kekuatan spiritual tinggi dan hanya dimiliki oleh para pemimpin atau raja-raja Batak sebagai simbol kekuasaan dan kebijaksanaan.",
-      metaLoc:   "Pusaka Kerajaan Batak",
-      metaStyle: "Senjata Magis & Kekuasaan",
-      img:       "/assets/provinsi/sumut/piso.jpg",
-    },
-    food: {
-      name:      "Arsik",
-      origin:    "Toba, Sumatera Utara",
-      desc:      "Arsik adalah hidangan ikan mas yang dimasak dengan bumbu kuning khas menggunakan andaliman (merica Batak) dan asam cikala. Perpaduan rasa 'getir' yang unik dari andaliman menciptakan cita rasa autentik yang tidak ditemukan di daerah lain, menjadikannya sajian wajib dalam upacara adat.",
-      metaLoc:   "Rempah Andaliman",
-      metaStyle: "Cita Rasa Toba",
-      img:       "/assets/provinsi/sumut/arsik.jpg",
-    },
+    music: {                              // ← ganti dari weapon
+    name:      "Gordang Sambilan",
+    origin:    "Sumatera Utara, Indonesia",
+    desc:      "Gordang Sambilan adalah alat musik tradisional Batak Mandailing berupa sembilan gendang besar yang dimainkan bersama dalam upacara adat. Bunyinya yang menggelegar melambangkan keagungan dan kekuatan spiritual masyarakat Batak.",
+    metaLoc:   "Musik Tradisional Batak",
+    metaStyle: "Alat Musik Pukul",
+  },
+     dance: {                              // ← ganti dari food
+    name:      "Tor-Tor",
+    origin:    "Sumatera Utara, Indonesia",
+    desc:      "Tor-Tor adalah tarian sakral suku Batak yang diiringi gondang sabangunan. Setiap gerakan tangannya mengandung makna doa dan komunikasi dengan leluhur, dipertunjukkan dalam upacara adat, pernikahan, dan penyambutan tamu kehormatan.",
+    metaLoc:   "Tari Sakral Batak",
+    metaStyle: "Tarian Upacara Adat",
+  },
     cloth: {
       name:      "Kain Ulos",
       origin:    "Sumatera Utara, Indonesia",
@@ -701,7 +699,7 @@ const provinceDatabase = {
     },
   },
 
-  "bangka-belitung": {
+  "kep-bangka-belitung": {
     name:      "Bangka Belitung",
     tagline:   "Negeri Serumpun Sebalai — surga pulau timah dan pasir putih, tempat budaya Melayu dan Tionghoa berpadu harmonis di Laut Bangka yang memukau.",
     history:   "🏛 Sejarah 300+ Tahun",
@@ -717,14 +715,13 @@ const provinceDatabase = {
       metaStyle: "Arsitektur Pesisir Melayu",
       img:       "assets/provinsi/bangka-belitung/rumah-rakit.jpg",
     },
-    weapon: {
-      name:      "Siwar",
-      origin:    "Warisan Budaya Bangka Belitung, Indonesia",
-      desc:      "Siwar adalah senjata tradisional Melayu Bangka Belitung berupa pedang pendek bermata satu dengan bilah melengkung yang tajam. Diwariskan turun-temurun sebagai lambang keberanian dan martabat, Siwar kerap hadir dalam upacara ritual sebagai penjaga kehormatan keluarga dan pemangku adat.",
-      metaLoc:   "Identitas Budaya Melayu Bangka",
-      metaStyle: "Pusaka Adat Melayu",
-      img:       "assets/provinsi/bangka-belitung/siwar.jpg",
-    },
+    music: {
+  name:      "Gitar Dambus",
+  origin:    "Bangka Belitung, Indonesia",
+  desc:      "Gitar Dambus adalah alat musik tradisional khas Bangka Belitung yang dimainkan dengan cara dipetik. Instrumen ini memiliki bentuk menyerupai gitar namun dengan suara yang lebih lembut dan khas, sering dimainkan dalam upacara adat, pertunjukan seni, dan perayaan budaya Melayu sebagai pengiring tari dan nyanyian daerah.",
+  metaLoc:   "Alat Musik Melayu Bangka",
+  metaStyle: "Instrumen Petik Tradisional",
+},
     food: {
       name:      "Mie Koba",
       origin:    "Bangka Belitung, Indonesia",
@@ -801,22 +798,20 @@ const provinceDatabase = {
       metaStyle: "Arsitektur Adat Melayu Lampung",
       img:       "/assets/provinsi/lampung/nuwoSesat.jpg",
     },
-    weapon: {
-      name:      "Terapang",
-      origin:    "Warisan Budaya Lampung, Indonesia",
-      desc:      "Terapang adalah senjata tradisional khas Lampung berupa keris bermata dua dengan bilah lurus atau berlekuk yang diwariskan sebagai pusaka kebanggaan keluarga adat. Senjata ini bukan sekadar alat perlindungan, melainkan lambang status sosial, keberanian, dan kewibawaan sang pemilik dalam struktur adat masyarakat Lampung.",
-      metaLoc:   "Identitas Budaya Lampung",
-      metaStyle: "Pusaka Adat Lampung",
-      img:       "/assets/provinsi/lampung/terapang.jpg",
-    },
-    food: {
-      name:      "Seruit",
-      origin:    "Lampung, Indonesia",
-      desc:      "Seruit adalah hidangan tradisional khas Lampung berupa ikan bakar atau goreng yang disajikan dengan sambal tempoyak — olahan durian fermentasi yang khas — serta pelengkap lalapan segar dan terasi. Perpaduan cita rasa asam, pedas, dan gurih dari tempoyak menjadikan Seruit sebagai sajian paling otentik dan dirindukan oleh masyarakat Lampung di mana pun berada.",
-      metaLoc:   "Cita Rasa Lokal Lampung",
-      metaStyle: "Kuliner Tradisional Khas",
-      img:       "/assets/provinsi/lampung/seruit.jpg",
-    },
+     tradition: {
+    name:      "Tradisi Pernikahan Adat Saibatin",
+    origin:    "Lampung, Indonesia",
+    desc:      "Tradisi pernikahan adat Suku Saibatin menggunakan tandu adat sebagai simbol kehormatan bagi pengantin. Tradisi ini mencerminkan kebersamaan, gotong royong, dan penghormatan terhadap budaya Lampung.",
+    metaLoc:   "Tradisi Adat Lampung",
+    metaStyle: "Upacara Pernikahan",
+  },
+  music: {
+    name:      "Gambus Lampung",
+    origin:    "Lampung, Indonesia",
+    desc:      "Gambus Lampung adalah alat musik petik tradisional khas Lampung yang dimainkan sebagai pengiring lagu-lagu daerah dan upacara adat. Suaranya yang merdu mencerminkan kekayaan seni budaya Melayu Lampung yang telah diwariskan turun-temurun.",
+    metaLoc:   "Alat Musik Tradisional",
+    metaStyle: "Instrumen Petik Melayu",
+  },
     cloth: {
       name:      "Tapis Lampung",
       origin:    "Lampung, Indonesia",
@@ -893,14 +888,13 @@ const provinceDatabase = {
       metaStyle: "Pusaka Legendaris Jawara",
       img:       "assets/provinsi/banten/golok-ciomas.jpg",
     },
-    food: {
-      name:      "Sate Bandeng",
-      origin:    "Banten, Indonesia",
-      desc:      "Sate Bandeng adalah kuliner khas Banten berupa ikan bandeng yang telah dikeluarkan durinya, dihaluskan bersama bumbu rempah, lalu dimasukkan kembali ke dalam kulitnya dan dipanggang. Hidangan istimewa ini dahulu merupakan sajian eksklusif bagi para sultan dan bangsawan Kesultanan Banten.",
-      metaLoc:   "Kuliner Istana Kesultanan",
-      metaStyle: "Cita Rasa Khas Banten",
-      img:       "assets/provinsi/banten/sate-bandeng.jpg",
-    },
+    music: {
+    name:      "Angklung Buhun",
+    origin:    "Banten, Indonesia",
+    desc:      "Angklung Buhun adalah alat musik tradisional khas masyarakat Baduy di Banten yang terbuat dari bambu pilihan. Dimainkan dalam upacara adat Seren Taun sebagai ungkapan syukur atas hasil panen, instrumen ini mencerminkan keharmonisan masyarakat Baduy dengan alam dan nilai-nilai leluhur yang dijaga secara turun-temurun.",
+    metaLoc:   "Alat Musik Tradisional Baduy",
+    metaStyle: "Instrumen Bambu Sakral",
+  },
     cloth: {
       name:      "Pangsi Banten",
       origin:    "Banten, Indonesia",
@@ -1137,21 +1131,19 @@ const provinceDatabase = {
     metaStyle: "Arsitektur Dayak",
     img:       "/assets/provinsi/kalimantanbarat/radakng.jpg",
   },
-  weapon: {
-    name:      "Mandau",
-    origin:    "Warisan Budaya Dayak, Kalimantan",
-    desc:      "Mandau adalah senjata tradisional suku Dayak yang melambangkan keberanian, kehormatan, dan kekuatan spiritual. Mandau tidak hanya digunakan sebagai alat pertahanan diri, tetapi juga memiliki nilai magis dan simbolik yang kuat dalam kehidupan adat masyarakat Dayak.",
-    metaLoc:   "Identitas Suku Dayak",
-    metaStyle: "Senjata Sakral",
-    img:       "/assets/provinsi/kalimantanbarat/mandau.jpg",
+   music: {
+    name:      "Sape",
+    origin:    "Kalimantan Barat, Indonesia",
+    desc:      "Sape adalah alat musik petik tradisional khas suku Dayak yang terbuat dari kayu pilihan. Dimainkan dalam upacara adat, penyambutan tamu, dan ritual penyembuhan, suara Sape yang merdu dan syahdu mampu membawa pendengarnya merasakan kedekatan spiritual dengan alam dan leluhur masyarakat Dayak Kalimantan.",
+    metaLoc:   "Alat Musik Suku Dayak",
+    metaStyle: "Instrumen Petik Tradisional",
   },
   food: {
-    name:      "Bubur Pedas Sambas",
-    origin:    "Sambas, Kalimantan Barat",
-    desc:      "Bubur Pedas Sambas adalah makanan khas Kalimantan Barat yang kaya akan rempah dan sayuran lokal. Meski namanya pedas, rasa bubur ini lebih dominan gurih dengan perpaduan berbagai bahan seperti beras tumbuk, daun-daunan, dan bumbu khas Melayu yang menyehatkan.",
-    metaLoc:   "Kuliner Melayu",
-    metaStyle: "Rempah Tradisional",
-    img:       "/assets/provinsi/kalimantanbarat/buburpedas.jpg",
+    name:      "Pengkang",
+    origin:    "Kalimantan Barat, Indonesia",
+    desc:      "Pengkang adalah jajanan tradisional khas Kalimantan Barat berupa ketan yang diisi ebi (udang kering) lalu dibungkus daun pisang berbentuk segitiga dan dibakar di atas bara api. Cita rasanya yang gurih dengan aroma daun pisang bakar menjadikan Pengkang sebagai kuliner ikonik yang wajib dicicipi di Pontianak.",
+    metaLoc:   "Kuliner Khas Pontianak",
+    metaStyle: "Jajanan Tradisional",
   },
   cloth: {
     name:      "King Baba & King Bibinge",
@@ -1263,13 +1255,12 @@ const provinceDatabase = {
     metaStyle: "Arsitektur Dayak",
     img:       "/assets/provinsi/kalimantantimur/lamin.jpg",
   },
-  weapon: {
-    name:      "Mandau",
-    origin:    "Warisan Budaya Dayak, Kalimantan",
-    desc:      "Mandau merupakan senjata tradisional khas suku Dayak yang melambangkan keberanian, kehormatan, dan kekuatan spiritual. Senjata ini dihiasi ukiran dan ornamen khas serta dipercaya memiliki nilai magis dalam tradisi masyarakat Dayak.",
-    metaLoc:   "Identitas Suku Dayak",
-    metaStyle: "Senjata Sakral",
-    img:       "/assets/provinsi/kalimantantimur/mandau.jpg",
+  music: {
+    name:      "Sape",
+    origin:    "Kalimantan Timur, Indonesia",
+    desc:      "Sape adalah alat musik petik tradisional khas suku Dayak Kalimantan Timur yang diukir dari satu batang kayu utuh. Dimainkan dalam upacara adat, ritual penyembuhan, dan penyambutan tamu kehormatan, melodi Sape yang mengalun lembut mencerminkan kedalaman spiritual dan kekayaan budaya masyarakat Dayak di tanah Borneo.",
+    metaLoc:   "Alat Musik Suku Dayak",
+    metaStyle: "Instrumen Petik Tradisional",
   },
   food: {
     name:      "Ayam Cincane",
@@ -1305,14 +1296,13 @@ const provinceDatabase = {
     metaStyle: "Arsitektur Tidung",
     img:       "/assets/provinsi/kalimantanutara/baloy.jpg",
   },
-  weapon: {
-    name:      "Mandau",
-    origin:    "Warisan Budaya Dayak, Kalimantan",
-    desc:      "Mandau merupakan senjata tradisional yang juga dikenal di Kalimantan Utara sebagai simbol keberanian dan kehormatan. Senjata ini memiliki nilai sakral dan sering dikaitkan dengan tradisi serta kepercayaan masyarakat Dayak.",
-    metaLoc:   "Identitas Budaya Dayak",
-    metaStyle: "Senjata Tradisional",
-    img:       "/assets/provinsi/kalimantanutara/mandau.jpg",
-  },
+  music: {
+  name:      "Babun",
+  origin:    "Kalimantan Utara, Indonesia",
+  desc:      "Babun adalah alat musik pukul tradisional khas Kalimantan Utara berupa gendang dua sisi yang terbuat dari kayu dan kulit hewan. Dimainkan dalam upacara adat, penyambutan tamu, dan perayaan budaya masyarakat Tidung dan Dayak, irama Babun yang bertalu-talu mencerminkan semangat kebersamaan dan kekuatan budaya di wilayah perbatasan utara Borneo.",
+  metaLoc:   "Alat Musik Tradisional",
+  metaStyle: "Instrumen Pukul Khas",
+},
   food: {
     name:      "Kepiting Soka",
     origin:    "Kalimantan Utara, Indonesia",
@@ -1381,22 +1371,20 @@ const provinceDatabase = {
     culture:   "🎭 Ragam Tradisi Daerah",
     arObjects: "4 Objek 3D Tersedia",
 
-    house: {
-      name:      "Rumah Laikas",
-      origin:    "Sulawesi Tenggara, Indonesia",
-      desc:      "Rumah Laikas adalah rumah adat suku Tolaki yang berbentuk rumah panggung megah, terkadang mencapai tiga hingga empat lantai. Lantai pertama dan kedua digunakan sebagai tempat tinggal raja, sementara lantai atas digunakan untuk penyimpanan benda pusaka dan meditasi, melambangkan struktur sosial dan spiritualitas yang tinggi.",
-      metaLoc:   "Provinsi Sulawesi Tenggara",
-      metaStyle: "Arsitektur Vernakular Tolaki",
-      img:       "assets/provinsi/sultra/rumah-laikas.jpg",
-    },
-    weapon: {
-      name:      "Parang Taawu",
-      origin:    "Warisan Budaya Sulawesi Tenggara, Indonesia",
-      desc:      "Parang Taawu adalah senjata tradisional khas suku Tolaki yang memiliki bilah tajam dengan bentuk khas. Selain sebagai alat perlindungan diri dan bertani, Taawu merupakan simbol identitas, keberanian, dan manifestasi harga diri bagi laki-laki di Sulawesi Tenggara.",
-      metaLoc:   "Identitas Budaya Tolaki",
-      metaStyle: "Senjata Tradisional Pusaka",
-      img:       "assets/provinsi/sultra/parang-taawu.jpg",
-    },
+     house: {
+    name:      "Banua Tada",
+    origin:    "Sulawesi Tenggara, Indonesia",
+    desc:      "Banua Tada adalah rumah adat khas Kesultanan Buton di Sulawesi Tenggara yang berarti 'rumah segi empat'. Dibangun di atas tiang-tiang kayu kokoh dengan struktur panggung yang megah, setiap elemen bangunannya mencerminkan nilai-nilai Islam, stratifikasi sosial, dan kearifan lokal masyarakat Buton yang telah diwariskan turun-temurun sejak zaman kesultanan.",
+    metaLoc:   "Provinsi Sulawesi Tenggara",
+    metaStyle: "Arsitektur Adat Kesultanan Buton",
+  },
+  music: {
+    name:      "Ganda",
+    origin:    "Sulawesi Tenggara, Indonesia",
+    desc:      "Ganda adalah alat musik pukul tradisional khas Sulawesi Tenggara berupa gendang dua sisi yang terbuat dari kayu dan kulit hewan. Dimainkan dalam upacara adat, perayaan budaya, dan pertunjukan seni masyarakat Tolaki dan Buton, irama Ganda yang dinamis dan bersemangat mencerminkan kegembiraan serta kekayaan tradisi budaya di tanah Sulawesi Tenggara.",
+    metaLoc:   "Alat Musik Tradisional",
+    metaStyle: "Instrumen Pukul Khas",
+  },
     food: {
       name:      "Sinonggi",
       origin:    "Sulawesi Tenggara, Indonesia",
@@ -1431,14 +1419,13 @@ const provinceDatabase = {
       metaStyle: "Arsitektur Adat Kaili",
       img:       "assets/provinsi/sulteng/souraja.jpg",
     },
-    weapon: {
-      name:      "Guma",
-      origin:    "Warisan Budaya Sulawesi Tengah, Indonesia",
-      desc:      "Guma adalah pedang tradisional suku Kaili yang berfungsi sebagai senjata perang, simbol status, dan alat ritual. Memiliki bilah yang kuat dengan hulu yang sering dihiasi ukiran bermakna filosofis, Guma melambangkan keberanian dan kewibawaan bagi pemiliknya.",
-      metaLoc:   "Identitas Budaya Kaili",
-      metaStyle: "Senjata Pusaka Tradisional",
-      img:       "assets/provinsi/sulteng/guma.jpg",
-    },
+     music: {
+    name:      "Gimba",
+    origin:    "Sulawesi Tengah, Indonesia",
+    desc:      "Gimba adalah alat musik pukul tradisional khas Sulawesi Tengah berupa gendang panjang yang terbuat dari kayu dan kulit hewan. Dimainkan dalam upacara adat, ritual penyembuhan, dan perayaan budaya masyarakat Kaili, irama Gimba yang menghentak dan bersemangat mencerminkan kekuatan spiritual serta kebersamaan masyarakat di jantung Pulau Sulawesi.",
+    metaLoc:   "Alat Musik Tradisional Kaili",
+    metaStyle: "Instrumen Pukul Khas",
+  },
     food: {
       name:      "Kaledo",
       origin:    "Palu, Sulawesi Tengah",
@@ -1466,21 +1453,19 @@ const provinceDatabase = {
     arObjects: "4 Objek 3D Tersedia",
 
     house: {
-      name:      "Tongkonan",
-      origin:    "Tana Toraja, Sulawesi Selatan",
-      desc:      "Tongkonan adalah rumah adat suku Toraja dengan atap melengkung menyerupai perahu atau tanduk kerbau. Bangunan ini berfungsi sebagai pusat kehidupan sosial dan spiritual keluarga besar, di mana setiap hiasan ukiran 'Passura' pada dindingnya menceritakan silsilah dan status sosial penghuninya.",
-      metaLoc:   "Provinsi Sulawesi Selatan",
-      metaStyle: "Arsitektur Tradisional Toraja",
-      img:       "assets/provinsi/sulsel/tongkonan.jpg",
-    },
-    weapon: {
-      name:      "Badik (Labi)",
-      origin:    "Warisan Budaya Bugis-Makassar, Indonesia",
-      desc:      "Badik adalah senjata tikam tradisional yang merupakan simbol jati diri dan kehormatan bagi pria Bugis-Makassar. Selain sebagai alat perlindungan diri, Badik dipercaya memiliki kekuatan spiritual yang melambangkan keberanian serta keteguhan dalam memegang prinsip hidup (Siri' na Pesse).",
-      metaLoc:   "Identitas Budaya Sulawesi Selatan",
-      metaStyle: "Senjata Pusaka Tradisional",
-      img:       "assets/provinsi/sulsel/badik.jpg",
-    },
+  name:      "Balla Lompoa",
+  origin:    "Sulawesi Selatan, Indonesia",
+  desc:      "Balla Lompoa yang berarti 'Rumah Besar' adalah istana adat kerajaan Gowa yang kini berfungsi sebagai museum bersejarah. Dibangun dengan arsitektur panggung khas Bugis-Makassar menggunakan kayu pilihan tanpa paku, bangunan megah ini mencerminkan kejayaan Kerajaan Gowa dan keagungan peradaban Sulawesi Selatan yang telah berlangsung selama berabad-abad.",
+  metaLoc:   "Provinsi Sulawesi Selatan",
+  metaStyle: "Arsitektur Istana Gowa",
+},
+     music: {
+    name:      "Keso-Keso",
+    origin:    "Sulawesi Selatan, Indonesia",
+    desc:      "Keso-Keso adalah alat musik gesek tradisional khas Sulawesi Selatan yang terbuat dari kayu dan senar dari serat alami. Dimainkan sebagai pengiring lagu-lagu daerah dan upacara adat Bugis-Makassar, suara Keso-Keso yang merdu dan mengalun lembut mencerminkan kehalusan rasa dan kedalaman budaya masyarakat Sulawesi Selatan yang kaya akan tradisi seni.",
+    metaLoc:   "Alat Musik Tradisional Bugis",
+    metaStyle: "Instrumen Gesek Khas",
+  },
     food: {
       name:      "Coto Makassar",
       origin:    "Makassar, Sulawesi Selatan",
@@ -1515,14 +1500,13 @@ const provinceDatabase = {
       metaStyle: "Arsitektur Vernakular Mandar",
       img:       "assets/provinsi/sulbar/rumah-boyang.jpg",
     },
-    weapon: {
-      name:      "Badik Mandar (Labi)",
-      origin:    "Warisan Budaya Mandar, Indonesia",
-      desc:      "Badik Mandar memiliki ciri khas bilah yang lebih ramping dan hulu yang elegan dibandingkan badik daerah lain. Bagi pria Mandar, senjata ini adalah simbol kedewasaan, perlindungan keluarga, serta manifestasi nilai 'Siri' (harga diri) yang dijunjung tinggi.",
-      metaLoc:   "Identitas Budaya Mandar",
-      metaStyle: "Senjata Pusaka Tradisional",
-      img:       "assets/provinsi/sulbar/badik-mandar.jpg",
-    },
+     music: {
+    name:      "Kecapi Mandar",
+    origin:    "Sulawesi Barat, Indonesia",
+    desc:      "Kecapi Mandar adalah alat musik petik tradisional khas suku Mandar di Sulawesi Barat yang terbuat dari kayu pilihan dengan senar dari nilon atau kawat. Dimainkan sebagai pengiring lagu-lagu daerah dan upacara adat, melodi Kecapi Mandar yang lembut dan syahdu mencerminkan kehalusan budi dan kekayaan seni budaya masyarakat pesisir Mandar.",
+    metaLoc:   "Alat Musik Tradisional Mandar",
+    metaStyle: "Instrumen Petik Khas",
+  },
     food: {
       name:      "Jepa",
       origin:    "Sulawesi Barat, Indonesia",
@@ -1557,14 +1541,13 @@ const provinceDatabase = {
       metaStyle: "Arsitektur Musyawarah Adat",
       img:       "assets/provinsi/gorontalo/rumah-dulohupa.jpg",
     },
-    weapon: {
-      name:      "Wamilo",
-      origin:    "Warisan Budaya Gorontalo, Indonesia",
-      desc:      "Wamilo adalah senjata tradisional Gorontalo sejenis parang dengan ujung bilah yang melebar dan tumpul. Bagi masyarakat Gorontalo, Wamilo bukan sekadar senjata fisik, melainkan simbol keberanian yang terkendali, harga diri, serta alat multifungsi yang mendampingi keseharian masyarakat petani dan pejuang.",
-      metaLoc:   "Identitas Budaya Hulontalo",
-      metaStyle: "Senjata Pusaka Tradisional",
-      img:       "assets/provinsi/gorontalo/wamilo.jpg",
-    },
+    music: {
+    name:      "Polopalo",
+    origin:    "Gorontalo, Indonesia",
+    desc:      "Polopalo adalah alat musik pukul tradisional khas Gorontalo yang terbuat dari bambu pilihan. Dimainkan dengan cara dipukul menggunakan telapak tangan, instrumen ini menghasilkan bunyi yang khas dan merdu. Polopalo sering dimainkan dalam upacara adat, perayaan budaya, dan pertunjukan seni sebagai simbol kegembiraan dan kekayaan tradisi masyarakat Gorontalo.",
+    metaLoc:   "Alat Musik Tradisional",
+    metaStyle: "Instrumen Bambu Khas",
+  },
     food: {
       name:      "Binte Biluhuta",
       origin:    "Gorontalo, Indonesia",
@@ -1599,14 +1582,13 @@ const provinceDatabase = {
       metaStyle: "Arsitektur Balai Adat",
       img:       "assets/provinsi/maluku/rumah-baileo.jpg",
     },
-    weapon: {
-      name:      "Parang Salawaku",
-      origin:    "Warisan Budaya Maluku, Indonesia",
-      desc:      "Parang Salawaku adalah sepasang senjata yang terdiri dari parang (senjata tajam) dan Salawaku (perisai). Motif pada perisainya sering kali melambangkan hubungan kekerabatan dan keberanian, menjadi simbol utama perjuangan rakyat Maluku.",
-      metaLoc:   "Identitas Budaya Maluku",
-      metaStyle: "Senjata Pusaka Tradisional",
-      img:       "assets/provinsi/maluku/parang-salawaku.jpg",
-    },
+  music: {
+    name:      "Tifa",
+    origin:    "Maluku, Indonesia",
+    desc:      "Tifa adalah alat musik pukul tradisional khas Maluku berupa gendang panjang berbentuk silinder yang terbuat dari kayu dan kulit hewan. Dimainkan dalam upacara adat, tarian perang, dan perayaan budaya, irama Tifa yang menghentak dan bersemangat mencerminkan semangat juang, kebersamaan, dan kekayaan budaya bahari masyarakat Kepulauan Maluku.",
+    metaLoc:   "Alat Musik Tradisional Maluku",
+    metaStyle: "Instrumen Pukul Khas",
+  },
     food: {
       name:      "Papeda",
       origin:    "Maluku, Indonesia",
@@ -1641,22 +1623,20 @@ const provinceDatabase = {
       metaStyle:  "Arsitektur Tradisional Sahu",
       img:        "assets/provinsi/maluku-utara/rumah-sasadu.jpg",
     },
-    weapon: {
-      name:       "Parang Salawaku",
-      origin:     "Warisan Budaya Maluku Utara, Indonesia",
-      desc:       "Parang Salawaku adalah senjata ikonik yang terdiri dari parang tajam dan perisai kayu (salawaku) yang dihiasi kulit kerang atau ukiran. Senjata ini bukan sekadar alat pertahanan, melainkan simbol kedaulatan empat kesultanan besar (Ternate, Tidore, Jailolo, dan Bacan) dalam menjaga wilayahnya.",
-      metaLoc:    "Identitas Budaya Maluku Utara",
-      metaStyle:  "Senjata Pusaka Tradisional",
-      img:        "assets/provinsi/maluku-utara/parang-salawaku.jpg",
-    },
-    food: {
-      name:       "Gohu Ikan",
-      origin:     "Ternate, Maluku Utara",
-      desc:       "Gohu Ikan adalah kuliner autentik berbahan dasar daging tuna atau cakalang mentah yang dipotong dadu. Disajikan dengan perasan lemon cui, kacang tanah goreng, dan siraman minyak kelapa panas, hidangan ini menawarkan sensasi segar yang dikenal sebagai 'Sashimi Ternate'.",
-      metaLoc:    "Kuliner Khas Kepulauan",
-      metaStyle:  "Cita Rasa Laut Segar",
-      img:        "assets/provinsi/maluku-utara/gohu-ikan.jpg",
-    },
+    dance: {
+    name:      "Tarian Cakalele",
+    origin:    "Maluku Utara, Indonesia",
+    desc:      "Cakalele adalah tarian perang tradisional khas Maluku Utara yang dibawakan dengan penuh semangat dan keberanian. Ditarikan oleh para penari yang mengenakan pakaian adat lengkap dengan parang dan salawaku, tarian ini mencerminkan jiwa ksatria, keberanian, dan semangat juang masyarakat Maluku Utara dalam mempertahankan kehormatan dan kedaulatan tanah leluhur.",
+    metaLoc:   "Tarian Tradisional Maluku Utara",
+    metaStyle: "Tari Perang Sakral",
+  },
+   music: {
+    name:      "Tifa",
+    origin:    "Maluku Utara, Indonesia",
+    desc:      "Tifa Maluku Utara adalah alat musik pukul tradisional berupa gendang silinder yang terbuat dari kayu pilihan dan kulit hewan. Dimainkan sebagai pengiring tarian adat dan upacara kesultanan Ternate dan Tidore, irama Tifa yang bertalu-talu mencerminkan semangat kebersamaan dan kejayaan peradaban rempah di Kepulauan Maluku Utara.",
+    metaLoc:   "Alat Musik Tradisional",
+    metaStyle: "Instrumen Pukul Khas",
+  },
     cloth: {
       name:       "Baju Cele",
       origin:     "Maluku Utara, Indonesia",
@@ -1861,14 +1841,13 @@ const provinceDatabase = {
       metaStyle:  "Arsitektur Tradisional Asmat",
       img:        "assets/provinsi/papua-selatan/rumah-jew.jpg",
     },
-    weapon: {
-      name:       "Tombak dan Busur",
-      origin:     "Warisan Budaya Papua Selatan, Indonesia",
-      desc:       "Masyarakat Papua Selatan, khususnya suku Marind dan Asmat, menggunakan tombak kayu panjang dan busur dari bambu pilihan untuk bertahan hidup. Senjata ini bukan sekadar alat buru, melainkan simbol kejantanan dan kewibawaan seorang pria dalam menjaga wilayah adatnya dari ancaman luar.",
-      metaLoc:    "Identitas Budaya Papua",
-      metaStyle:  "Senjata Tradisional",
-      img:        "assets/provinsi/papua-selatan/tombak-papua.jpg",
-    },
+    music: {
+    name:      "Tifa",
+    origin:    "Papua Selatan, Indonesia",
+    desc:      "Tifa adalah alat musik pukul tradisional khas Papua Selatan berupa gendang silinder yang terbuat dari kayu pilihan dan kulit hewan. Dimainkan dalam upacara adat, ritual suku Asmat dan Marind, serta perayaan budaya, irama Tifa yang menghentak mencerminkan semangat kebersamaan, kekuatan spiritual, dan kekayaan tradisi masyarakat adat di tanah Papua Selatan.",
+    metaLoc:   "Alat Musik Tradisional Papua",
+    metaStyle: "Instrumen Pukul Khas",
+  },
     food: {
       name:       "Sagu Sep",
       origin:     "Merauke, Papua Selatan",
@@ -2017,30 +1996,103 @@ function setSrc(id, src, alt) {
    4. ISI CARD PER KATEGORI
 ───────────────────────────────────────── */
 
-const CATEGORY_MAP = {
+// Pemetaan default (slot HTML → key data provinsi)
+const CATEGORY_MAP_DEFAULT = {
   rumah:   'house',
   senjata: 'weapon',
   makanan: 'food',
   pakaian: 'cloth',
 };
 
-function populateCard(cat, data, slug) {
+// Override per provinsi — isi sesuai kebutuhan
+// Key = slot HTML card, Value = key di provinceDatabase & arLinks
+const CATEGORY_MAP_OVERRIDE = {
+    'sumatera-utara': {
+    senjata: 'music',   // slot card senjata → pakai data music
+    makanan: 'dance',   // slot card makanan → pakai data dance
+  },
+   'kep-bangka-belitung': {
+    senjata: 'music',
+  },
+  'lampung': {
+    senjata: 'tradition',
+    makanan: 'music',
+  },
+  'banten':              { makanan: 'music' },
+  'kalimantan-barat':    { senjata: 'music' },
+  'kalimantan-timur':    { senjata: 'music' },
+  'kalimantan-utara':    { senjata: 'music' },
+  'gorontalo':           { senjata: 'music' },
+  'sulawesi-tengah':     { senjata: 'music' },
+  'sulawesi-barat':      { senjata: 'music' },
+  'sulawesi-selatan':    { senjata: 'music' },
+  'sulawesi-tenggara':   { senjata: 'music' },
+  'maluku':              { senjata: 'music' },
+  'maluku-utara':        { senjata: 'dance', makanan: 'music' },
+  'papua-selatan':       { senjata: 'music' },
+  // Contoh:
+  // 'aceh': {
+  //   senjata: 'dance',   // card senjata → tampilkan tarian
+  //   makanan: 'music',   // card makanan → tampilkan alat musik
+  // },
+};
+
+// Konfigurasi tampilan label & ikon badge per key
+const CATEGORY_DISPLAY = {
+  house:     { label: 'Rumah Adat',          icon: '🏠', badgeClass: 'badge-gold'   },
+  weapon:    { label: 'Senjata Tradisional', icon: '⚔️', badgeClass: 'badge-blue'   },
+  food:      { label: 'Makanan Tradisional', icon: '🍛', badgeClass: 'badge-teal'   },
+  cloth:     { label: 'Pakaian Tradisional', icon: '👘', badgeClass: 'badge-rose'   },
+  dance:     { label: 'Tarian Tradisional',  icon: '💃', badgeClass: 'badge-purple' },
+  music:     { label: 'Alat Musik',          icon: '🎵', badgeClass: 'badge-teal'   },
+  tradition: { label: 'Tradisi Daerah',      icon: '🎎', badgeClass: 'badge-purple' },
+};
+  // tambahkan kategori baru di sini sesuai kebutuhan
+
+
+function getCategoryMap(slug) {
+  const override = CATEGORY_MAP_OVERRIDE[slug] || {};
+  return { ...CATEGORY_MAP_DEFAULT, ...override };
+}
+
+function updateCardBadge(cat, dataKey) {
+  const display = CATEGORY_DISPLAY[dataKey];
+  if (!display) return;
+
+  // Update badge label & ikon
+  const card  = document.querySelector(`[data-category="${cat}"]`);
+  if (!card) return;
+
+  const badge = card.querySelector('.card-category-badge');
+  if (badge) {
+    // Hapus semua badge class lama, pasang yang baru
+    badge.className = `card-category-badge ${display.badgeClass}`;
+    badge.innerHTML = `<span>${display.icon}</span> ${display.label}`;
+  }
+}
+
+function populateCard(cat, data, slug, dataKey) {
+  if (!data) return;
+
   setText(`title-${cat}`,      data.name);
   setText(`origin-${cat}`,     data.origin);
   setText(`desc-${cat}`,       data.desc);
   setText(`meta-${cat}-loc`,   data.metaLoc);
   setText(`meta-${cat}-style`, data.metaStyle);
 
-  // Selalu pakai getImgPath, abaikan data.img
   setSrc(`img-${cat}`, getImgPath(slug, cat), data.name);
+
+  // Update badge sesuai kategori aktual
+  updateCardBadge(cat, dataKey);
 
   const btnAR = document.getElementById(`btn-ar-${cat}`);
   if (btnAR) {
-    const link = arLinks[slug]?.[CATEGORY_MAP[cat]];
-    btnAR.onclick = () => link ? window.open(link, '_blank') : alert('Link AR belum tersedia');
+    const link = arLinks[slug]?.[dataKey];
+    btnAR.onclick = () => link
+      ? window.open(link, '_blank')
+      : alert('Link AR belum tersedia');
   }
 }
-
 
 function getImgPath(slug, category) {
   const catMap = {
@@ -2048,8 +2100,11 @@ function getImgPath(slug, category) {
     senjata: 'senjata',
     makanan: 'makanan',
     pakaian: 'pakaian',
+    dance:   'tarian',
+    music:   'musik',
+    // tambahkan sesuai folder aset kamu
   };
-  return `/assets/provinsi/${slug}/${catMap[category]}`;
+  return `/assets/provinsi/${slug}/${catMap[category] || category}`;
 }
 
 function setSrc(id, src, alt) {
@@ -2057,20 +2112,19 @@ function setSrc(id, src, alt) {
   if (!el) return;
   el.alt = alt || '';
 
-  // Kalau src sudah ada ekstensinya (dari data.img), langsung pakai
-  if (src && (src.endsWith('.jpg') || src.endsWith('.png') || src.endsWith('.webp') || src.endsWith('.jpeg'))) {
+  if (src && /\.(jpg|png|webp|jpeg)$/i.test(src)) {
     el.src = src;
     el.onerror = null;
     return;
   }
 
-  // Fallback: coba .jpg dulu, kalau gagal coba .png
   el.src = src + '.jpg';
   el.onerror = function () {
-    el.onerror = null; // hindari infinite loop
+    el.onerror = null;
     el.src = src + '.png';
   };
 }
+
 
 /* ─────────────────────────────────────────
    5. ISI SEMUA ELEMEN HALAMAN
@@ -2092,9 +2146,10 @@ function populatePage(slug) {
   setText('section-province-name', p.name);
   setText('footer-province',       `${p.name}, Indonesia`);
 
-  for (const [cat, key] of Object.entries(CATEGORY_MAP)) {
-  populateCard(cat, p[key], slug);
-}
+  const catMap = getCategoryMap(slug);
+  for (const [cat, dataKey] of Object.entries(catMap)) {
+    populateCard(cat, p[dataKey], slug, dataKey);
+  }
 }
 
 
