@@ -14,11 +14,11 @@
 
 const arLinks = {
   "aceh": {
-    house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Alat%20musik.glb",
-    weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Rumah%20adat.glb",
-    food:    "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Makanan.glb",
-    cloth:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Pakaian%20adat.glb",
-  },
+  house:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Alat%20musik.glb",
+  music:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Rumah%20adat.glb",
+  food:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Makanan.glb",
+  cloth:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Aceh/Pakaian%20adat.glb",
+},
   "bali": {
     house:   "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Rumah%20adat%20.glb",
     weapon:  "https://aryamdhka06.github.io/arloka/ar/viewer.html?model=Bali/Senjata%20bali.glb",
@@ -295,13 +295,13 @@ const provinceDatabase = {
       metaLoc:   "Provinsi Aceh",
       metaStyle: "Arsitektur Islami",
     },
-    weapon: {
-      name:      "Rencong",
-      origin:    "Warisan Budaya Aceh, Indonesia",
-      desc:      "Rencong adalah senjata tradisional khas Aceh yang menjadi simbol keberanian, kehormatan, dan semangat perjuangan rakyat Aceh. Bentuknya yang melengkung menyerupai huruf Arab dipercaya mencerminkan nilai-nilai Islam yang kuat dalam kehidupan masyarakat Aceh.",
-      metaLoc:   "Identitas Budaya Aceh",
-      metaStyle: "Pusaka Kehormatan",
-    },
+   music: {
+  name:      "Arbab",
+  origin:    "Aceh, Indonesia",
+  desc:      "Arbab adalah alat musik gesek tradisional khas Aceh yang terbuat dari tempurung kelapa, kulit kambing, dan kayu. Dimainkan dengan cara digesek menggunakan busur berbulu kuda, suara Arbab yang khas dan merdu sering mengiringi pertunjukan seni dan upacara adat masyarakat Aceh sebagai warisan budaya leluhur yang dijaga turun-temurun.",
+  metaLoc:   "Alat Musik Tradisional Aceh",
+  metaStyle: "Instrumen Gesek Khas",
+},
     food: {
       name:      "Mie Aceh",
       origin:    "Aceh, Indonesia",
@@ -2030,6 +2030,7 @@ const CATEGORY_MAP_OVERRIDE = {
   'maluku':              { senjata: 'music' },
   'maluku-utara':        { senjata: 'dance', makanan: 'music' },
   'papua-selatan':       { senjata: 'music' },
+   'aceh':                { senjata: 'music' },
   // Contoh:
   // 'aceh': {
   //   senjata: 'dance',   // card senjata → tampilkan tarian
@@ -2456,10 +2457,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   }, { passive: true });
 })();
 
-
-/* ─────────────────────────────────────────
-   INIT — jalankan setelah DOM siap
-───────────────────────────────────────── */
 
 document.addEventListener('DOMContentLoaded', () => {
   const slug = getProvinceSlug();
